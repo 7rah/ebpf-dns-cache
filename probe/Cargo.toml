@@ -9,6 +9,7 @@ cty = "0.2"
 redbpf-macros = "2.3.0"
 redbpf-probes = "2.3.0"
 memoffset = "*"
+no-std-net = "0.6.0"
 
 [build-dependencies]
 cargo-bpf = { version = "2.3.0", default-features = false }
@@ -22,6 +23,6 @@ path = "src/lib.rs"
 
 
 [[bin]]
-name = "dns"
+name = "dns_queries"
 path = "src/main.rs"
 required-features = ["probes"]

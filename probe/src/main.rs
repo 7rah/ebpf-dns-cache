@@ -1,75 +1,39 @@
 #![no_std]
 #![no_main]
-use core::mem::{self, MaybeUninit};
-use memoffset::offset_of;
-
-use redbpf_probes::socket_filter::prelude::*;
-
-use probe::{SocketAddr, TCPLifetime};
-
-#[map(link_section = "maps/established")]
-static mut ESTABLISHED: HashMap<(SocketAddr, SocketAddr), u64> = HashMap::with_max_entries(10240);
-
-#[map(link_section = "maps/tcp_lifetime")]
-static mut TCP_LIFETIME: PerfMap<TCPLifetime> = PerfMap::with_max_entries(10240);
+use redbpf_probes::xdp::prelude::*;
+use probe::Event;
 
 program!(0xFFFFFFFE, "GPL");
-#[socket_filter]
-fn measure_tcp_lifetime(skb: SkBuff) -> SkBuffResult {
-    let eth_len = mem::size_of::<ethhdr>();
-    let eth_proto = skb.load::<__be16>(offset_of!(ethhdr, h_proto))? as u32;
-    if eth_proto != ETH_P_IP {
-        return Ok(SkBuffAction::Ignore);
+
+#[map(link_section = "maps/events")]
+static mut events: PerfMap<Event> = PerfMap::with_max_entries(1024);
+
+#[xdp("dns_queries")]
+pub fn probe(ctx: XdpContext) -> XdpResult {
+    let ip = unsafe { *ctx.ip()? };
+    let transport = ctx.transport()?;
+    let data = ctx.data()?;
+
+    // DNS is at least 12 bytes
+    let header = data.slice(12)?;
+    if header[2] >> 3 & 0xF != 0u8 {
+        return Ok(XdpAction::Pass);
     }
 
-    let ip_proto = skb.load::<__u8>(eth_len + offset_of!(iphdr, protocol))? as u32;
-    if ip_proto != IPPROTO_TCP {
-        return Ok(SkBuffAction::Ignore);
-    }
+    // we got something that looks like DNS, send it to user space for parsing
+    let event = Event {
+        saddr: ip.saddr,
+        daddr: ip.daddr,
+        sport: transport.source(),
+        dport: transport.dest(),
+    };
 
-    let mut ip_hdr = unsafe { MaybeUninit::<iphdr>::zeroed().assume_init() };
-    ip_hdr._bitfield_1 = __BindgenBitfieldUnit::new([skb.load::<u8>(eth_len)?]);
-    if ip_hdr.version() != 4 {
-        return Ok(SkBuffAction::Ignore);
-    }
+    unsafe {
+        events.insert(
+            &ctx,
+            &MapData::with_payload(event, data.offset() as u32, ctx.len() as u32),
+        )
+    };
 
-    let ihl = ip_hdr.ihl() as usize;
-    let src = SocketAddr::new(
-        skb.load::<__be32>(eth_len + offset_of!(iphdr, saddr))?,
-        skb.load::<__be16>(eth_len + ihl * 4 + offset_of!(tcphdr, source))?,
-    );
-    let dst = SocketAddr::new(
-        skb.load::<__be32>(eth_len + offset_of!(iphdr, daddr))?,
-        skb.load::<__be16>(eth_len + ihl * 4 + offset_of!(tcphdr, dest))?,
-    );
-    let pair = (src, dst);
-    let mut tcp_hdr = unsafe { MaybeUninit::<tcphdr>::zeroed().assume_init() };
-    tcp_hdr._bitfield_1 = __BindgenBitfieldUnit::new([
-        skb.load::<u8>(eth_len + ihl * 4 + offset_of!(tcphdr, _bitfield_1))?,
-        skb.load::<u8>(eth_len + ihl * 4 + offset_of!(tcphdr, _bitfield_1) + 1)?,
-    ]);
-
-    if tcp_hdr.syn() == 1 {
-        unsafe {
-            ESTABLISHED.set(&pair, &bpf_ktime_get_ns());
-        }
-    }
-
-    if tcp_hdr.fin() == 1 || tcp_hdr.rst() == 1 {
-        unsafe {
-            if let Some(estab_ts) = ESTABLISHED.get(&pair) {
-                ESTABLISHED.delete(&pair);
-                TCP_LIFETIME.insert(
-                    skb.skb as *mut __sk_buff,
-                    &TCPLifetime {
-                        src,
-                        dst,
-                        duration: bpf_ktime_get_ns() - estab_ts,
-                    },
-                );
-            }
-        }
-    }
-
-    Ok(SkBuffAction::Ignore)
+    Ok(XdpAction::Pass)
 }

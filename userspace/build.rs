@@ -6,6 +6,6 @@ fn main() {
     let package = PathBuf::from("../probe");
     let target_dir = PathBuf::from("../target");
 
-    build(&cargo, &package, &target_dir, vec!["dns".into()]).unwrap();
+    build(&cargo, &package, &target_dir, vec!["dns_queries".into()]).unwrap();
     println!("cargo:rerun-if-changed=../probe");
 }
