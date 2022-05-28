@@ -1,39 +1,75 @@
 #![no_std]
 #![no_main]
-use redbpf_probes::xdp::prelude::*;
+use core::mem::{self, MaybeUninit};
+
+use memoffset::offset_of;
 use probe::Event;
+use redbpf_probes::bindings::*;
+use redbpf_probes::helpers::ufmt::Formatter;
+use redbpf_probes::kprobe::prelude::*;
+use redbpf_probes::socket::SkBuff;
+use redbpf_probes::socket_filter::prelude::*;
+use redbpf_probes::sockmap::prelude::*;
+use core::fmt::{self, Write};
 
 program!(0xFFFFFFFE, "GPL");
 
-#[map(link_section = "maps/events")]
-static mut events: PerfMap<Event> = PerfMap::with_max_entries(1024);
+#[socket_filter]
+pub fn dns_queries(skb: SkBuff) -> SkBuffResult {
+    let eth_len = mem::size_of::<ethhdr>();
+    let eth_proto = skb.load::<__be16>(offset_of!(ethhdr, h_proto))? as u32;
 
-#[xdp("dns_queries")]
-pub fn probe(ctx: XdpContext) -> XdpResult {
-    let ip = unsafe { *ctx.ip()? };
-    let transport = ctx.transport()?;
-    let data = ctx.data()?;
+    if eth_proto == ETH_P_IP {
+        let mut ip_hdr = unsafe { mem::zeroed::<iphdr>() };
+        ip_hdr._bitfield_1 = __BindgenBitfieldUnit::new([skb.load::<u8>(eth_len)?]);
 
-    // DNS is at least 12 bytes
-    let header = data.slice(12)?;
-    if header[2] >> 3 & 0xF != 0u8 {
-        return Ok(XdpAction::Pass);
+        let (ip_len, proto) = if ip_hdr.version() == 4 {
+            (
+                ip_hdr.ihl() as usize * 4,
+                skb.load::<__u8>(eth_len + offset_of!(iphdr, protocol))? as u32,
+            )
+        } else {
+            (40, skb.load::<__u8>(eth_len + 6)? as u32)
+        };
+
+        let proto_len = if proto == IPPROTO_UDP {
+            mem::size_of::<udphdr>()
+        } else if proto == IPPROTO_TCP {
+            mem::size_of::<tcphdr>()
+        }else { 
+            return Ok(SkBuffAction::Ignore);
+        };
+
+
+        let dns_qcount: u16 = skb.load(eth_len + ip_len + proto_len + 4)?;
+        if dns_qcount == 1 {
+            return Ok(SkBuffAction::SendToUserspace);
+
+        }
     }
 
-    // we got something that looks like DNS, send it to user space for parsing
-    let event = Event {
-        saddr: ip.saddr,
-        daddr: ip.daddr,
-        sport: transport.source(),
-        dport: transport.dest(),
-    };
+    /*
+    if eth_proto != ETH_P_IP {
+        return Ok(SkBuffAction::Ignore);
+    }
 
-    unsafe {
-        events.insert(
-            &ctx,
-            &MapData::with_payload(event, data.offset() as u32, ctx.len() as u32),
-        )
-    };
+    let ip_proto = skb.load::<__u8>(eth_len + offset_of!(iphdr, protocol))? as u32;
+    if ip_proto != IPPROTO_UDP {
+        return Ok(SkBuffAction::Ignore);
+    }
 
-    Ok(XdpAction::Pass)
+    let mut ip_hdr = unsafe { mem::zeroed::<iphdr>() };
+    ip_hdr._bitfield_1 = __BindgenBitfieldUnit::new([skb.load::<u8>(eth_len)?]);
+    if ip_hdr.version() != 4 {
+        return Ok(SkBuffAction::Ignore);
+    }
+    let ihl = ip_hdr.ihl() as usize;
+
+    let dns_qcount: u16 = skb.load(eth_len + ihl * 4 + mem::size_of::<udphdr>() + 4)?;
+    if dns_qcount == 1 {
+        return Ok(SkBuffAction::SendToUserspace);
+    }
+
+    */
+    Ok(SkBuffAction::Ignore)
 }

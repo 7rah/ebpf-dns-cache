@@ -13,6 +13,8 @@ tracing = "0.1"
 futures = "0.3"
 libc = "*"
 probe = { path = "../probe" }
+tokio-fd = "0.3.0"
+dns-parser = "0.8.0"
 
 [build-dependencies]
 cargo-bpf = { version="2.3.0",default-features = false, features = ["build","llvm13"] }
