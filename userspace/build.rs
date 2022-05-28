@@ -1,5 +1,6 @@
 use cargo_bpf_lib::build;
-use std::{env, path::PathBuf};
+use std::env;
+use std::path::PathBuf;
 
 fn main() {
     let cargo = PathBuf::from(env::var("CARGO").unwrap());
