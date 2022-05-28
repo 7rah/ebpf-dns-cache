@@ -29,23 +29,28 @@ pub fn dns_queries(skb: SkBuff) -> SkBuffResult {
                 skb.load::<__u8>(eth_len + offset_of!(iphdr, protocol))? as u32,
             )
         } else {
-            (40, skb.load::<__u8>(eth_len + 6)? as u32)
-        };
-
-        let proto_len = if proto == IPPROTO_UDP {
-            mem::size_of::<udphdr>()
-        } else if proto == IPPROTO_TCP {
-            mem::size_of::<tcphdr>()
-        }else { 
             return Ok(SkBuffAction::Ignore);
         };
 
+        if proto == IPPROTO_UDP {
+            let proto_len =  mem::size_of::<udphdr>();
+            let dns_qcount: u16 = skb.load(eth_len + ip_len + proto_len + 4)?;
+            if dns_qcount == 1 {
+                return Ok(SkBuffAction::SendToUserspace);
+            }
 
-        let dns_qcount: u16 = skb.load(eth_len + ip_len + proto_len + 4)?;
-        if dns_qcount == 1 {
-            return Ok(SkBuffAction::SendToUserspace);
-
+        } else if proto == IPPROTO_TCP {
+            let proto_len = 20;
+            let dns_qcount: u16 = skb.load(eth_len + ip_len + proto_len + 6)?;
+            if dns_qcount == 1 {
+                return Ok(SkBuffAction::SendToUserspace);
+            }
+        }else { 
+            return Ok(SkBuffAction::Ignore);
         }
+
+        return Ok(SkBuffAction::Ignore);
+        
     }
 
     /*

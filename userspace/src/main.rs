@@ -55,13 +55,22 @@ async fn main() {
 
     let mut buf = vec![0; 2048];
     while let Ok(n) = filter.read(&mut buf).await {
-        let ihl = (u8::from_be(buf[14]) & 0x0f) as usize;
-
-        println!("{:x}", ihl);
-        let udp_data = &buf[14+ihl*4+8..n];
         
 
-        match Packet::parse(udp_data) {
+        let ihl = (u8::from_be(buf[14]) & 0x0f) as usize;
+        let protocol = buf[23];
+        let protocol_udp = u8::from_be(17);
+        let protocol_tcp = u8::from_be(6);
+
+        let data = match protocol {
+            // udp 
+            protocol_udp => &buf[14+ihl*4+8..n],
+            protocol_tcp => &buf[14+ihl*4+20..n],
+            _ => unreachable!()
+        };
+        
+
+        match Packet::parse(data) {
             Ok(packet) => println!("{packet:?}"),
             Err(e) => println!("{e}"),
         }
