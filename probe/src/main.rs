@@ -1,8 +1,8 @@
 #![no_std]
 #![no_main]
 
-use core::mem;
 use core::fmt::{self, Write};
+use core::mem;
 use memoffset::offset_of;
 use redbpf_probes::bindings::*;
 use redbpf_probes::socket_filter::prelude::*;

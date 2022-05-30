@@ -1,0 +1,662 @@
+[2m2022-05-30T15:47:08.806609Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 47671 10.69.243.31:37419 <--> 202.197.96.100:53    ["csunicom.nodenet.cloud"] ["116.129.253.249"]
+[2m2022-05-30T15:47:08.806672Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:5   remain unmached: 4   loss: 80.00%
+[2m2022-05-30T15:47:08.806691Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 48124 10.69.243.31:38095 <--> 202.197.96.100:53    ["gd-cmobile.nodenet.cloud"] ["120.233.187.37"]
+[2m2022-05-30T15:47:08.806698Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:5   remain unmached: 3   loss: 60.00%
+[2m2022-05-30T15:47:08.806707Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 65224 10.69.243.31:47433 <--> 202.197.96.100:53    ["sb-ipv6.nodenet.cloud"] ["sbipv6.520450.xyz"]
+[2m2022-05-30T15:47:08.806714Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:5   remain unmached: 2   loss: 40.00%
+[2m2022-05-30T15:47:08.806724Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 46692 10.69.243.31:58256 <--> 202.197.96.100:53    ["shcu-9929.nodenet.cloud"] ["shcu4.forgebukkit.com", "139.226.50.162"]
+[2m2022-05-30T15:47:08.806734Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:5   remain unmached: 1   loss: 20.00%
+[2m2022-05-30T15:47:08.806742Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 11658 10.69.243.31:52381 <--> 202.197.96.100:53    ["cu9929-us.nodenet.cloud"] ["185.148.14.155"]
+[2m2022-05-30T15:47:08.806748Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:5   remain unmached: 0   loss: 0.00%
+[2m2022-05-30T15:47:08.809709Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 35855 10.69.243.31:49655 <--> 202.197.96.100:53    ["gd-cmobile.nodenet.cloud"] ["120.233.187.37"]
+[2m2022-05-30T15:47:08.809743Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:6   remain unmached: 0   loss: 0.00%
+[2m2022-05-30T15:47:09.493197Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 38473 10.69.243.31:56139 <--> 114.114.114.114:53    ["dns.rubyfish.cn"] []
+[2m2022-05-30T15:47:09.493221Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:14   remain unmached: 7   loss: 50.00%
+[2m2022-05-30T15:47:09.496107Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 2040 10.69.243.31:33450 <--> 114.114.114.114:53    ["shcu-9929.nodenet.cloud"] ["shcu4.forgebukkit.com", "139.226.50.162"]
+[2m2022-05-30T15:47:09.496123Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:14   remain unmached: 6   loss: 42.86%
+[2m2022-05-30T15:47:09.518177Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 17379 10.69.243.31:45703 <--> 114.114.114.114:53    ["shcu-9929.nodenet.cloud"] ["shcu4.forgebukkit.com"]
+[2m2022-05-30T15:47:09.518205Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:14   remain unmached: 5   loss: 35.71%
+[2m2022-05-30T15:47:09.527676Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 29182 10.69.243.31:48549 <--> 114.114.114.114:53    ["dns.rubyfish.cn"] ["175.24.154.66"]
+[2m2022-05-30T15:47:09.527689Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:14   remain unmached: 4   loss: 28.57%
+[2m2022-05-30T15:47:09.548930Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 36242 10.69.243.31:37892 <--> 114.114.114.114:53    ["gd-cmobile.nodenet.cloud"] ["120.233.187.37"]
+[2m2022-05-30T15:47:09.548953Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:20   remain unmached: 9   loss: 45.00%
+[2m2022-05-30T15:47:09.646574Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 29182 10.69.243.31:36371 <--> 8.8.8.8:53    ["dns.rubyfish.cn"] ["175.24.154.66"]
+[2m2022-05-30T15:47:09.646620Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:20   remain unmached: 8   loss: 40.00%
+[2m2022-05-30T15:47:09.646652Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 37733 10.69.243.31:34417 <--> 114.114.114.114:53    ["dns.rubyfish.cn"] ["175.24.154.66"]
+[2m2022-05-30T15:47:09.646657Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:20   remain unmached: 7   loss: 35.00%
+[2m2022-05-30T15:47:09.646662Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 6828 10.69.243.31:39388 <--> 114.114.114.114:53    ["gd-cmobile.nodenet.cloud"] []
+[2m2022-05-30T15:47:09.646666Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:20   remain unmached: 6   loss: 30.00%
+[2m2022-05-30T15:47:09.648009Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 37733 10.69.243.31:48262 <--> 8.8.8.8:53    ["dns.rubyfish.cn"] ["175.24.154.66"]
+[2m2022-05-30T15:47:09.648024Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:20   remain unmached: 5   loss: 25.00%
+[2m2022-05-30T15:47:09.648032Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 38473 10.69.243.31:51102 <--> 8.8.8.8:53    ["dns.rubyfish.cn"] []
+[2m2022-05-30T15:47:09.648036Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:20   remain unmached: 4   loss: 20.00%
+[2m2022-05-30T15:47:09.648094Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 36242 10.69.243.31:39234 <--> 8.8.8.8:53    ["gd-cmobile.nodenet.cloud"] ["120.233.187.37"]
+[2m2022-05-30T15:47:09.648429Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:20   remain unmached: 3   loss: 15.00%
+[2m2022-05-30T15:47:09.648442Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 6828 10.69.243.31:47576 <--> 8.8.8.8:53    ["gd-cmobile.nodenet.cloud"] []
+[2m2022-05-30T15:47:09.648448Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:20   remain unmached: 2   loss: 10.00%
+[2m2022-05-30T15:47:09.648454Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 17379 10.69.243.31:41258 <--> 8.8.8.8:53    ["shcu-9929.nodenet.cloud"] ["shcu4.forgebukkit.com"]
+[2m2022-05-30T15:47:09.648460Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:20   remain unmached: 1   loss: 5.00%
+[2m2022-05-30T15:47:09.648466Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 2040 10.69.243.31:56881 <--> 8.8.8.8:53    ["shcu-9929.nodenet.cloud"] ["shcu4.forgebukkit.com", "139.226.50.162"]
+[2m2022-05-30T15:47:09.648473Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:20   remain unmached: 0   loss: 0.00%
+[2m2022-05-30T15:47:09.776598Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 35610 10.69.243.31:43857 <--> 114.114.114.114:53    ["pccw-ipv6.nodenet.cloud"] []
+[2m2022-05-30T15:47:09.776623Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:26   remain unmached: 5   loss: 19.23%
+[2m2022-05-30T15:47:09.799861Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 49562 10.69.243.31:45442 <--> 114.114.114.114:53    ["dns.rubyfish.cn"] ["175.24.154.66"]
+[2m2022-05-30T15:47:09.799895Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:26   remain unmached: 4   loss: 15.38%
+[2m2022-05-30T15:47:09.802844Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 60061 10.69.243.31:45206 <--> 114.114.114.114:53    ["pccw-ipv6.nodenet.cloud"] ["2404:c801:413:94ea:9bba:f44e:882d:782b"]
+[2m2022-05-30T15:47:09.802857Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:26   remain unmached: 3   loss: 11.54%
+[2m2022-05-30T15:47:09.840326Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 49562 10.69.243.31:51321 <--> 8.8.8.8:53    ["dns.rubyfish.cn"] ["175.24.154.66"]
+[2m2022-05-30T15:47:09.840357Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:26   remain unmached: 2   loss: 7.69%
+[2m2022-05-30T15:47:09.933801Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 35610 10.69.243.31:36498 <--> 8.8.8.8:53    ["pccw-ipv6.nodenet.cloud"] []
+[2m2022-05-30T15:47:09.933838Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:26   remain unmached: 1   loss: 3.85%
+[2m2022-05-30T15:47:09.933859Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 60061 10.69.243.31:48525 <--> 8.8.8.8:53    ["pccw-ipv6.nodenet.cloud"] ["2404:c801:413:94ea:9bba:f44e:882d:782b"]
+[2m2022-05-30T15:47:09.933871Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:26   remain unmached: 0   loss: 0.00%
+[2m2022-05-30T15:47:09.970500Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 14999 10.69.243.31:37820 <--> 114.114.114.114:53    ["dns.rubyfish.cn"] ["175.24.154.66"]
+[2m2022-05-30T15:47:09.970532Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:32   remain unmached: 5   loss: 15.62%
+[2m2022-05-30T15:47:09.989545Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 2252 10.69.243.31:44044 <--> 114.114.114.114:53    ["azure-hkg.nodenet.cloud"] []
+[2m2022-05-30T15:47:09.989579Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:32   remain unmached: 4   loss: 12.50%
+[2m2022-05-30T15:47:09.995089Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 64563 10.69.243.31:49069 <--> 114.114.114.114:53    ["azure-hkg.nodenet.cloud"] ["20.239.189.69"]
+[2m2022-05-30T15:47:09.995136Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:32   remain unmached: 3   loss: 9.38%
+[2m2022-05-30T15:47:10.026705Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 64563 10.69.243.31:37995 <--> 8.8.8.8:53    ["azure-hkg.nodenet.cloud"] ["20.239.189.69"]
+[2m2022-05-30T15:47:10.026740Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:36   remain unmached: 6   loss: 16.67%
+[2m2022-05-30T15:47:10.041443Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 14999 10.69.243.31:60562 <--> 8.8.8.8:53    ["dns.rubyfish.cn"] ["175.24.154.66"]
+[2m2022-05-30T15:47:10.041466Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:36   remain unmached: 5   loss: 13.89%
+[2m2022-05-30T15:47:10.057936Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 11830 10.69.243.31:57927 <--> 114.114.114.114:53    ["cera-169.nodenet.cloud"] []
+[2m2022-05-30T15:47:10.057958Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:36   remain unmached: 4   loss: 11.11%
+[2m2022-05-30T15:47:10.083147Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 2294 10.69.243.31:41456 <--> 114.114.114.114:53    ["spclient.wg.spotify.com"] ["edge-web.dual-gslb.spotify.com", "35.186.224.25"]
+[2m2022-05-30T15:47:10.083179Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:40   remain unmached: 7   loss: 17.50%
+[2m2022-05-30T15:47:10.088249Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 44085 10.69.243.31:60418 <--> 114.114.114.114:53    ["spclient.wg.spotify.com"] ["edge-web.dual-gslb.spotify.com", "2600:1901:1:c36::"]
+[2m2022-05-30T15:47:10.088265Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:40   remain unmached: 6   loss: 15.00%
+[2m2022-05-30T15:47:10.088273Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 28482 10.69.243.31:52411 <--> 114.114.114.114:53    ["cera-169.nodenet.cloud"] ["198.16.63.226"]
+[2m2022-05-30T15:47:10.088279Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:40   remain unmached: 5   loss: 12.50%
+[2m2022-05-30T15:47:10.115873Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 11830 10.69.243.31:40253 <--> 8.8.8.8:53    ["cera-169.nodenet.cloud"] []
+[2m2022-05-30T15:47:10.115913Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:40   remain unmached: 4   loss: 10.00%
+[2m2022-05-30T15:47:10.134799Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 44085 10.69.243.31:60961 <--> 8.8.8.8:53    ["spclient.wg.spotify.com"] ["edge-web.dual-gslb.spotify.com", "2600:1901:1:c36::"]
+[2m2022-05-30T15:47:10.134824Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:40   remain unmached: 3   loss: 7.50%
+[2m2022-05-30T15:47:10.134835Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 28482 10.69.243.31:40822 <--> 8.8.8.8:53    ["cera-169.nodenet.cloud"] ["198.16.63.226"]
+[2m2022-05-30T15:47:10.134842Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:40   remain unmached: 2   loss: 5.00%
+[2m2022-05-30T15:47:10.801163Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 4937 10.69.243.31:60168 <--> 114.114.114.114:53    ["csunicom.nodenet.cloud"] ["116.129.253.249"]
+[2m2022-05-30T15:47:10.801193Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:44   remain unmached: 5   loss: 11.36%
+[2m2022-05-30T15:47:10.821341Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 36827 10.69.243.31:33962 <--> 114.114.114.114:53    ["csunicom.nodenet.cloud"] []
+[2m2022-05-30T15:47:10.821366Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:44   remain unmached: 4   loss: 9.09%
+[2m2022-05-30T15:47:10.821380Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 4937 10.69.243.31:47332 <--> 8.8.8.8:53    ["csunicom.nodenet.cloud"] ["116.129.253.249"]
+[2m2022-05-30T15:47:10.821391Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:44   remain unmached: 3   loss: 6.82%
+[2m2022-05-30T15:47:10.821495Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 36827 10.69.243.31:56169 <--> 8.8.8.8:53    ["csunicom.nodenet.cloud"] []
+[2m2022-05-30T15:47:10.821511Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:44   remain unmached: 2   loss: 4.55%
+[2m2022-05-30T15:47:11.705103Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 49859 10.69.243.31:47201 <--> 114.114.114.114:53    ["ntt.hm.520450.xyz"] []
+[2m2022-05-30T15:47:11.705126Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:48   remain unmached: 5   loss: 10.42%
+[2m2022-05-30T15:47:11.740558Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 50520 10.69.243.31:57033 <--> 114.114.114.114:53    ["ntt.hm.520450.xyz"] ["126.40.44.82"]
+[2m2022-05-30T15:47:11.740586Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:48   remain unmached: 4   loss: 8.33%
+[2m2022-05-30T15:47:11.755142Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 50520 10.69.243.31:59363 <--> 8.8.8.8:53    ["ntt.hm.520450.xyz"] ["126.40.44.82"]
+[2m2022-05-30T15:47:11.755165Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:48   remain unmached: 3   loss: 6.25%
+[2m2022-05-30T15:47:11.778404Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 49859 10.69.243.31:36184 <--> 8.8.8.8:53    ["ntt.hm.520450.xyz"] []
+[2m2022-05-30T15:47:11.778439Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:48   remain unmached: 2   loss: 4.17%
+[2m2022-05-30T15:47:11.864838Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 25752 10.69.243.31:42775 <--> 114.114.114.114:53    ["apernet-v6.nodenet.cloud"] []
+[2m2022-05-30T15:47:11.864860Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:52   remain unmached: 5   loss: 9.62%
+[2m2022-05-30T15:47:11.996796Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 13954 10.69.243.31:33575 <--> 114.114.114.114:53    ["apernet-v6.nodenet.cloud"] ["2602:feda:30:af86::c9"]
+[2m2022-05-30T15:47:11.996839Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:52   remain unmached: 4   loss: 7.69%
+[2m2022-05-30T15:47:11.996855Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 13954 10.69.243.31:53640 <--> 8.8.8.8:53    ["apernet-v6.nodenet.cloud"] ["2602:feda:30:af86::c9"]
+[2m2022-05-30T15:47:11.996868Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:52   remain unmached: 3   loss: 5.77%
+[2m2022-05-30T15:47:11.996878Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 25752 10.69.243.31:55620 <--> 8.8.8.8:53    ["apernet-v6.nodenet.cloud"] []
+[2m2022-05-30T15:47:11.996889Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:52   remain unmached: 2   loss: 3.85%
+[2m2022-05-30T15:47:14.205316Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 0 224.0.0.251:5353 <--> 10.69.243.31:5353    ["_googlecast._tcp.local"] []
+[2m2022-05-30T15:47:14.205334Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:53   remain unmached: 2   loss: 3.77%
+[2m2022-05-30T15:47:15.207034Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 0 224.0.0.251:5353 <--> 10.69.243.31:5353    ["_googlecast._tcp.local"] []
+[2m2022-05-30T15:47:15.207083Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:54   remain unmached: 2   loss: 3.70%
+[2m2022-05-30T15:47:17.208840Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 0 224.0.0.251:5353 <--> 10.69.243.31:5353    ["_googlecast._tcp.local"] []
+[2m2022-05-30T15:47:17.208893Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:55   remain unmached: 2   loss: 3.64%
+[2m2022-05-30T15:47:17.827840Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 25787 10.69.243.31:43200 <--> 114.114.114.114:53    ["apresolve.spotify.com"] ["2600:1901:0:524d::"]
+[2m2022-05-30T15:47:17.827912Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:59   remain unmached: 5   loss: 8.47%
+[2m2022-05-30T15:47:17.827936Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 6853 10.69.243.31:56620 <--> 114.114.114.114:53    ["apresolve.spotify.com"] ["34.98.74.57"]
+[2m2022-05-30T15:47:17.827954Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:59   remain unmached: 4   loss: 6.78%
+[2m2022-05-30T15:47:17.854873Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 6853 10.69.243.31:40162 <--> 8.8.8.8:53    ["apresolve.spotify.com"] ["34.98.74.57"]
+[2m2022-05-30T15:47:17.854896Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:59   remain unmached: 3   loss: 5.08%
+[2m2022-05-30T15:47:17.883078Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 25787 10.69.243.31:39870 <--> 8.8.8.8:53    ["apresolve.spotify.com"] ["2600:1901:0:524d::"]
+[2m2022-05-30T15:47:17.883115Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:59   remain unmached: 2   loss: 3.39%
+[2m2022-05-30T15:47:42.052280Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 47783 10.69.243.31:47334 <--> 114.114.114.114:53    ["api.tabnine.com"] ["glacial-ravine-7295.morning-tundra-7160.herokuspace.com", "54.204.198.197", "50.16.186.245"]
+[2m2022-05-30T15:47:42.052310Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:64   remain unmached: 6   loss: 9.38%
+[2m2022-05-30T15:47:42.083427Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 52231 10.69.243.31:47875 <--> 114.114.114.114:53    ["api.tabnine.com"] ["glacial-ravine-7295.morning-tundra-7160.herokuspace.com"]
+[2m2022-05-30T15:47:42.083449Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:64   remain unmached: 5   loss: 7.81%
+[2m2022-05-30T15:47:42.109138Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 47783 10.69.243.31:53230 <--> 8.8.8.8:53    ["api.tabnine.com"] ["glacial-ravine-7295.morning-tundra-7160.herokuspace.com", "50.16.186.245", "54.204.198.197"]
+[2m2022-05-30T15:47:42.109171Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:64   remain unmached: 4   loss: 6.25%
+[2m2022-05-30T15:47:42.126076Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 52231 10.69.243.31:36607 <--> 8.8.8.8:53    ["api.tabnine.com"] ["glacial-ravine-7295.morning-tundra-7160.herokuspace.com"]
+[2m2022-05-30T15:47:42.126095Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:64   remain unmached: 3   loss: 4.69%
+[2m2022-05-30T15:47:46.530838Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 9424 10.69.243.31:37257 <--> 114.114.114.114:53    ["www.baidu.com"] ["www.a.shifen.com", "14.215.177.39", "14.215.177.38"]
+[2m2022-05-30T15:47:46.530866Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:68   remain unmached: 6   loss: 8.82%
+[2m2022-05-30T15:47:46.561533Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 11103 10.69.243.31:58432 <--> 114.114.114.114:53    ["www.baidu.com"] ["www.a.shifen.com"]
+[2m2022-05-30T15:47:46.561550Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:68   remain unmached: 5   loss: 7.35%
+[2m2022-05-30T15:47:46.573755Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 11103 10.69.243.31:42274 <--> 8.8.8.8:53    ["www.baidu.com"] ["www.a.shifen.com", "www.wshifen.com"]
+[2m2022-05-30T15:47:46.573771Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:68   remain unmached: 4   loss: 5.88%
+[2m2022-05-30T15:47:46.605400Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 9424 10.69.243.31:57760 <--> 8.8.8.8:53    ["www.baidu.com"] ["www.a.shifen.com", "www.wshifen.com", "45.113.192.101", "45.113.192.102"]
+[2m2022-05-30T15:47:46.605418Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:68   remain unmached: 3   loss: 4.41%
+[2m2022-05-30T15:47:46.976065Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 29536 10.69.243.31:54286 <--> 114.114.114.114:53    ["pss.bdstatic.com"] ["pss.bdstatic.com.a.bdydns.com", "opencdnglobalv6.jomodns.com", "240e:980:1200:800::cb38:4523", "240e:95d:1904:fa::6fae:923"]
+[2m2022-05-30T15:47:46.976104Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:72   remain unmached: 6   loss: 8.33%
+[2m2022-05-30T15:47:46.985041Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 20803 10.69.243.31:36297 <--> 114.114.114.114:53    ["pss.bdstatic.com"] ["pss.bdstatic.com.a.bdydns.com", "opencdnglobalv6.jomodns.com", "59.36.203.35", "121.227.7.35"]
+[2m2022-05-30T15:47:46.985067Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:72   remain unmached: 5   loss: 6.94%
+[2m2022-05-30T15:47:47.167950Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 20803 10.69.243.31:51406 <--> 8.8.8.8:53    ["pss.bdstatic.com"] ["pss.bdstatic.com.a.bdydns.com", "opencdnglobalv6.jomodns.com", "opencdnglobal.gshifen.com", "45.113.192.94"]
+[2m2022-05-30T15:47:47.167969Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:72   remain unmached: 4   loss: 5.56%
+[2m2022-05-30T15:47:47.168017Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 29536 10.69.243.31:45737 <--> 8.8.8.8:53    ["pss.bdstatic.com"] ["pss.bdstatic.com.a.bdydns.com", "opencdnglobalv6.jomodns.com", "opencdnglobal.gshifen.com"]
+[2m2022-05-30T15:47:47.168026Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:72   remain unmached: 3   loss: 4.17%
+[2m2022-05-30T15:47:47.319386Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 64363 10.69.243.31:51533 <--> 114.114.114.114:53    ["t15.baidu.com"] ["t15.baidu.com.a.bdydns.com", "opencdnbdimgtn.jomodns.com", "240e:95d:1901:100::7764:3224"]
+[2m2022-05-30T15:47:47.319462Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 34   loss: 32.69%
+[2m2022-05-30T15:47:47.325216Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 44136 10.69.243.31:58103 <--> 114.114.114.114:53    ["t12.baidu.com"] ["t12.baidu.com.a.bdydns.com", "opencdnbdsimage.jomodns.com", "175.6.243.36", "175.6.206.36"]
+[2m2022-05-30T15:47:47.325289Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 33   loss: 31.73%
+[2m2022-05-30T15:47:47.332626Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 64769 10.69.243.31:56321 <--> 114.114.114.114:53    ["t14.baidu.com"] ["t14.baidu.com.a.bdydns.com", "opencdnbdimgtn.jomodns.com", "240e:95d:1901:100::7764:3224"]
+[2m2022-05-30T15:47:47.332664Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 32   loss: 30.77%
+[2m2022-05-30T15:47:47.333741Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 15685 10.69.243.31:50297 <--> 114.114.114.114:53    ["f10.baidu.com"] ["f10.baidu.com.a.bdydns.com", "opencdnbdsimage.jomodns.com", "175.6.243.36", "175.6.206.36"]
+[2m2022-05-30T15:47:47.333803Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 31   loss: 29.81%
+[2m2022-05-30T15:47:47.334654Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 13864 10.69.243.31:40488 <--> 114.114.114.114:53    ["t12.baidu.com"] ["t12.baidu.com.a.bdydns.com", "opencdnbdsimage.jomodns.com", "240e:95d:1901:100::7764:3224"]
+[2m2022-05-30T15:47:47.334670Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 30   loss: 28.85%
+[2m2022-05-30T15:47:47.338018Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 20546 10.69.243.31:53192 <--> 114.114.114.114:53    ["gimg4.baidu.com"] ["gimg4.baidu.com.a.bdydns.com", "opencdnbdsimage.jomodns.com", "175.6.243.36", "175.6.206.36"]
+[2m2022-05-30T15:47:47.338070Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 29   loss: 27.88%
+[2m2022-05-30T15:47:47.338090Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 36505 10.69.243.31:56522 <--> 114.114.114.114:53    ["f10.baidu.com"] ["f10.baidu.com.a.bdydns.com", "opencdnbdsimage.jomodns.com", "240e:95d:1901:100::7764:3224"]
+[2m2022-05-30T15:47:47.338100Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 28   loss: 26.92%
+[2m2022-05-30T15:47:47.338108Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 36175 10.69.243.31:43943 <--> 114.114.114.114:53    ["gimg3.baidu.com"] ["gimg3.baidu.com.a.bdydns.com", "opencdnbdsimage.jomodns.com", "175.6.243.36", "175.6.206.36"]
+[2m2022-05-30T15:47:47.338116Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 27   loss: 25.96%
+[2m2022-05-30T15:47:47.338124Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 51742 10.69.243.31:45103 <--> 114.114.114.114:53    ["t15.baidu.com"] ["t15.baidu.com.a.bdydns.com", "opencdnbdimgtn.jomodns.com", "175.6.243.36", "175.6.206.36"]
+[2m2022-05-30T15:47:47.338132Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 26   loss: 25.00%
+[2m2022-05-30T15:47:47.342249Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 28272 10.69.243.31:39599 <--> 114.114.114.114:53    ["t13.baidu.com"] ["t13.baidu.com.a.bdydns.com", "opencdnbdimgtn.jomodns.com", "240e:95d:1901:100::7764:3224"]
+[2m2022-05-30T15:47:47.342272Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 25   loss: 24.04%
+[2m2022-05-30T15:47:47.344715Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 30240 10.69.243.31:60269 <--> 114.114.114.114:53    ["gimg3.baidu.com"] ["gimg3.baidu.com.a.bdydns.com", "opencdnbdsimage.jomodns.com", "240e:95d:1901:100::7764:3224"]
+[2m2022-05-30T15:47:47.344748Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 24   loss: 23.08%
+[2m2022-05-30T15:47:47.347642Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 53070 10.69.243.31:58523 <--> 114.114.114.114:53    ["t13.baidu.com"] ["t13.baidu.com.a.bdydns.com", "opencdnbdimgtn.jomodns.com", "175.6.243.36", "175.6.206.36"]
+[2m2022-05-30T15:47:47.347670Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 23   loss: 22.12%
+[2m2022-05-30T15:47:47.347681Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 63790 10.69.243.31:49374 <--> 114.114.114.114:53    ["hectorstatic.baidu.com"] ["hectorstatic.baidu.com.a.bdydns.com", "opencdnbd.jomodns.com", "240e:ff:d190:601::7160:b226"]
+[2m2022-05-30T15:47:47.347689Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 22   loss: 21.15%
+[2m2022-05-30T15:47:47.349729Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 44521 10.69.243.31:33737 <--> 114.114.114.114:53    ["t14.baidu.com"] ["t14.baidu.com.a.bdydns.com", "opencdnbdimgtn.jomodns.com", "175.6.243.36", "175.6.206.36"]
+[2m2022-05-30T15:47:47.349756Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 21   loss: 20.19%
+[2m2022-05-30T15:47:47.350934Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 33413 10.69.243.31:57333 <--> 114.114.114.114:53    ["gimg4.baidu.com"] ["gimg4.baidu.com.a.bdydns.com", "opencdnbdsimage.jomodns.com", "240e:95d:1901:100::7764:3224"]
+[2m2022-05-30T15:47:47.350958Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 20   loss: 19.23%
+[2m2022-05-30T15:47:47.353427Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 13864 10.69.243.31:57590 <--> 8.8.8.8:53    ["t12.baidu.com"] ["t12.baidu.com.a.bdydns.com", "opencdnbdsimage.jomodns.com"]
+[2m2022-05-30T15:47:47.353459Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 19   loss: 18.27%
+[2m2022-05-30T15:47:47.364595Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 44136 10.69.243.31:50958 <--> 8.8.8.8:53    ["t12.baidu.com"] ["t12.baidu.com.a.bdydns.com", "opencdnbdsimage.jomodns.com", "121.12.53.36", "118.112.225.36", "115.231.41.36", "121.227.7.36", "124.238.241.36", "125.64.104.36", "125.74.1.36", "125.74.40.36", "125.74.42.36", "180.101.38.36"]
+[2m2022-05-30T15:47:47.364623Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 18   loss: 17.31%
+[2m2022-05-30T15:47:47.366227Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 33413 10.69.243.31:59998 <--> 8.8.8.8:53    ["gimg4.baidu.com"] ["gimg4.baidu.com.a.bdydns.com", "opencdnbdsimage.jomodns.com"]
+[2m2022-05-30T15:47:47.366242Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 17   loss: 16.35%
+[2m2022-05-30T15:47:47.371205Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 13860 10.69.243.31:33316 <--> 114.114.114.114:53    ["hectorstatic.baidu.com"] ["hectorstatic.baidu.com.a.bdydns.com", "opencdnbd.jomodns.com", "119.100.50.38", "1.81.3.38"]
+[2m2022-05-30T15:47:47.371308Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 16   loss: 15.38%
+[2m2022-05-30T15:47:47.509051Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 28272 10.69.243.31:33561 <--> 8.8.8.8:53    ["t13.baidu.com"] ["t13.baidu.com.a.bdydns.com", "opencdnbdimgtn.jomodns.com", "240e:97e:6004:1::7920:e424", "240e:ff:9008:501::7169:ac24"]
+[2m2022-05-30T15:47:47.509082Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 15   loss: 14.42%
+[2m2022-05-30T15:47:47.509092Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 44521 10.69.243.31:59287 <--> 8.8.8.8:53    ["t14.baidu.com"] ["t14.baidu.com.a.bdydns.com", "opencdnbdimgtn.jomodns.com", "59.36.203.36", "183.56.138.36"]
+[2m2022-05-30T15:47:47.509100Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 14   loss: 13.46%
+[2m2022-05-30T15:47:47.509106Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 64769 10.69.243.31:43833 <--> 8.8.8.8:53    ["t14.baidu.com"] ["t14.baidu.com.a.bdydns.com", "opencdnbdimgtn.jomodns.com", "opencdnbdimgtn.gshifen.com"]
+[2m2022-05-30T15:47:47.509112Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 13   loss: 12.50%
+[2m2022-05-30T15:47:47.509117Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 13860 10.69.243.31:50366 <--> 8.8.8.8:53    ["hectorstatic.baidu.com"] ["hectorstatic.baidu.com.a.bdydns.com", "opencdnbd.jomodns.com", "113.105.172.38"]
+[2m2022-05-30T15:47:47.509124Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 12   loss: 11.54%
+[2m2022-05-30T15:47:47.509130Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 63790 10.69.243.31:50376 <--> 8.8.8.8:53    ["hectorstatic.baidu.com"] ["hectorstatic.baidu.com.a.bdydns.com", "opencdnbd.jomodns.com"]
+[2m2022-05-30T15:47:47.509135Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 11   loss: 10.58%
+[2m2022-05-30T15:47:47.509143Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 51742 10.69.243.31:41876 <--> 8.8.8.8:53    ["t15.baidu.com"] ["t15.baidu.com.a.bdydns.com", "opencdnbdimgtn.jomodns.com", "opencdnbdimgtn.gshifen.com", "45.113.193.83"]
+[2m2022-05-30T15:47:47.509149Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 10   loss: 9.62%
+[2m2022-05-30T15:47:47.509156Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 15685 10.69.243.31:33472 <--> 8.8.8.8:53    ["f10.baidu.com"] ["f10.baidu.com.a.bdydns.com", "opencdnbdsimage.jomodns.com", "121.32.228.36", "121.12.53.36"]
+[2m2022-05-30T15:47:47.509164Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 9   loss: 8.65%
+[2m2022-05-30T15:47:47.509236Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 20546 10.69.243.31:46219 <--> 8.8.8.8:53    ["gimg4.baidu.com"] ["gimg4.baidu.com.a.bdydns.com", "opencdnbdsimage.jomodns.com", "118.112.225.36", "115.231.41.36", "121.12.53.36", "121.227.7.36", "124.238.241.36", "125.64.104.36", "125.74.1.36", "125.74.40.36", "125.74.42.36", "180.101.38.36"]
+[2m2022-05-30T15:47:47.509255Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 8   loss: 7.69%
+[2m2022-05-30T15:47:47.509305Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 36505 10.69.243.31:33276 <--> 8.8.8.8:53    ["f10.baidu.com"] ["f10.baidu.com.a.bdydns.com", "opencdnbdsimage.jomodns.com"]
+[2m2022-05-30T15:47:47.509314Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 7   loss: 6.73%
+[2m2022-05-30T15:47:47.516599Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 64363 10.69.243.31:41983 <--> 8.8.8.8:53    ["t15.baidu.com"] ["t15.baidu.com.a.bdydns.com", "opencdnbdimgtn.jomodns.com", "opencdnbdimgtn.gshifen.com"]
+[2m2022-05-30T15:47:47.516619Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:104   remain unmached: 6   loss: 5.77%
+[2m2022-05-30T15:47:47.964255Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 5975 10.69.243.31:42745 <--> 114.114.114.114:53    ["ug.baidu.com"] ["eopa.n.shifen.com", "14.215.178.234", "14.215.178.24"]
+[2m2022-05-30T15:47:47.964278Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:108   remain unmached: 9   loss: 8.33%
+[2m2022-05-30T15:47:47.965664Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 23161 10.69.243.31:40657 <--> 114.114.114.114:53    ["ug.baidu.com"] ["eopa.n.shifen.com", "240e:ff:e020:418:0:ff:b04a:168d"]
+[2m2022-05-30T15:47:47.965678Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:108   remain unmached: 8   loss: 7.41%
+[2m2022-05-30T15:47:48.161085Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 5975 10.69.243.31:44047 <--> 8.8.8.8:53    ["ug.baidu.com"] ["eopa.n.shifen.com", "14.215.178.24", "14.215.178.234"]
+[2m2022-05-30T15:47:48.161103Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:108   remain unmached: 7   loss: 6.48%
+[2m2022-05-30T15:47:48.161198Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 23161 10.69.243.31:39214 <--> 8.8.8.8:53    ["ug.baidu.com"] ["eopa.n.shifen.com", "240e:ff:e020:418:0:ff:b04a:168d"]
+[2m2022-05-30T15:47:48.161227Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:108   remain unmached: 6   loss: 5.56%
+[2m2022-05-30T15:47:48.499194Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 30240 10.69.243.31:58983 <--> 8.8.8.8:53    ["gimg3.baidu.com"] ["gimg3.baidu.com.a.bdydns.com", "opencdnbdsimage.jomodns.com"]
+[2m2022-05-30T15:47:48.499232Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:108   remain unmached: 5   loss: 4.63%
+[2m2022-05-30T15:47:50.150161Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 36980 10.69.243.31:33485 <--> 114.114.114.114:53    ["sp3.baidu.com"] ["www.a.shifen.com", "14.215.177.38", "14.215.177.39"]
+[2m2022-05-30T15:47:50.150193Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:112   remain unmached: 8   loss: 7.14%
+[2m2022-05-30T15:47:50.177495Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 59884 10.69.243.31:54460 <--> 114.114.114.114:53    ["sp3.baidu.com"] ["www.a.shifen.com"]
+[2m2022-05-30T15:47:50.177525Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:112   remain unmached: 7   loss: 6.25%
+[2m2022-05-30T15:47:50.226185Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 59884 10.69.243.31:49210 <--> 8.8.8.8:53    ["sp3.baidu.com"] ["www.a.shifen.com"]
+[2m2022-05-30T15:47:50.226211Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:112   remain unmached: 6   loss: 5.36%
+[2m2022-05-30T15:47:50.369459Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 36980 10.69.243.31:49627 <--> 8.8.8.8:53    ["sp3.baidu.com"] ["www.a.shifen.com", "14.215.177.38", "14.215.177.39"]
+[2m2022-05-30T15:47:50.369478Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:112   remain unmached: 5   loss: 4.46%
+[2m2022-05-30T15:47:53.890577Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 31307 10.69.243.31:32862 <--> 114.114.114.114:53    ["t9.baidu.com"] ["t9.baidu.com.a.bdydns.com", "opencdnbdcharon.jomodns.com", "175.6.243.36"]
+[2m2022-05-30T15:47:53.890596Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:124   remain unmached: 16   loss: 12.90%
+[2m2022-05-30T15:47:53.890605Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 43947 10.69.243.31:39606 <--> 114.114.114.114:53    ["t8.baidu.com"] ["t8.baidu.com.a.bdydns.com", "opencdnbdcharon.jomodns.com", "175.6.243.36"]
+[2m2022-05-30T15:47:53.890621Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:124   remain unmached: 15   loss: 12.10%
+[2m2022-05-30T15:47:53.890630Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 27502 10.69.243.31:48929 <--> 114.114.114.114:53    ["t9.baidu.com"] ["t9.baidu.com.a.bdydns.com", "opencdnbdcharon.jomodns.com", "240e:95d:1901:100::7764:3224"]
+[2m2022-05-30T15:47:53.890640Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:124   remain unmached: 14   loss: 11.29%
+[2m2022-05-30T15:47:53.890647Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 40146 10.69.243.31:36329 <--> 114.114.114.114:53    ["t8.baidu.com"] ["t8.baidu.com.a.bdydns.com", "opencdnbdcharon.jomodns.com", "240e:95d:1901:100::7764:3224"]
+[2m2022-05-30T15:47:53.890657Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:124   remain unmached: 13   loss: 10.48%
+[2m2022-05-30T15:47:53.893685Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 3441 10.69.243.31:40432 <--> 114.114.114.114:53    ["t7.baidu.com"] ["t7.baidu.com.a.bdydns.com", "opencdnbdcharon.jomodns.com", "240e:95d:1901:100::7764:3224"]
+[2m2022-05-30T15:47:53.893704Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:124   remain unmached: 12   loss: 9.68%
+[2m2022-05-30T15:47:53.902430Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 62977 10.69.243.31:48884 <--> 114.114.114.114:53    ["t7.baidu.com"] ["t7.baidu.com.a.bdydns.com", "opencdnbdcharon.jomodns.com", "175.6.243.36"]
+[2m2022-05-30T15:47:53.902476Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:124   remain unmached: 11   loss: 8.87%
+[2m2022-05-30T15:47:53.920174Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 31307 10.69.243.31:60193 <--> 8.8.8.8:53    ["t9.baidu.com"] ["t9.baidu.com.a.bdydns.com", "opencdnbdcharon.jomodns.com", "36.99.3.36", "1.81.3.36", "1.182.48.36", "1.193.146.36", "14.29.98.36", "14.215.89.36", "1.71.157.36", "36.103.236.36", "36.103.246.36", "42.81.118.36"]
+[2m2022-05-30T15:47:53.920223Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:124   remain unmached: 10   loss: 8.06%
+[2m2022-05-30T15:47:53.937476Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 3441 10.69.243.31:47119 <--> 8.8.8.8:53    ["t7.baidu.com"] ["t7.baidu.com.a.bdydns.com", "opencdnbdcharon.jomodns.com"]
+[2m2022-05-30T15:47:53.937533Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:124   remain unmached: 9   loss: 7.26%
+[2m2022-05-30T15:47:53.946686Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 43947 10.69.243.31:41974 <--> 8.8.8.8:53    ["t8.baidu.com"] ["t8.baidu.com.a.bdydns.com", "opencdnbdcharon.jomodns.com", "115.231.41.36", "59.36.203.36", "106.225.194.36", "110.185.186.36", "111.170.26.36", "113.105.172.36", "113.113.67.36", "114.80.30.36", "114.232.92.36", "42.101.56.36"]
+[2m2022-05-30T15:47:53.946707Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:124   remain unmached: 8   loss: 6.45%
+[2m2022-05-30T15:47:53.980424Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 40146 10.69.243.31:58881 <--> 8.8.8.8:53    ["t8.baidu.com"] ["t8.baidu.com.a.bdydns.com", "opencdnbdcharon.jomodns.com"]
+[2m2022-05-30T15:47:53.980443Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:124   remain unmached: 7   loss: 5.65%
+[2m2022-05-30T15:47:53.988340Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 27502 10.69.243.31:33428 <--> 8.8.8.8:53    ["t9.baidu.com"] ["t9.baidu.com.a.bdydns.com", "opencdnbdcharon.jomodns.com", "240e:95d:1901:100::7764:3224"]
+[2m2022-05-30T15:47:53.988419Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:124   remain unmached: 6   loss: 4.84%
+[2m2022-05-30T15:47:54.072141Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 62977 10.69.243.31:48806 <--> 8.8.8.8:53    ["t7.baidu.com"] ["t7.baidu.com.a.bdydns.com", "opencdnbdcharon.jomodns.com", "110.185.186.36", "59.36.203.36", "106.225.194.36", "42.101.56.36", "111.170.26.36", "113.105.172.36", "113.113.67.36", "114.80.30.36", "114.232.92.36", "115.231.41.36"]
+[2m2022-05-30T15:47:54.072184Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:124   remain unmached: 5   loss: 4.03%
+[2m2022-05-30T15:48:00.005366Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 6961 10.69.243.31:40063 <--> 114.114.114.114:53    ["t10.baidu.com"] ["t10.baidu.com.a.bdydns.com", "opencdnbdsimage.jomodns.com", "175.6.206.36", "175.6.243.36"]
+[2m2022-05-30T15:48:00.005381Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:128   remain unmached: 8   loss: 6.25%
+[2m2022-05-30T15:48:00.014159Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 64831 10.69.243.31:57173 <--> 114.114.114.114:53    ["t10.baidu.com"] ["t10.baidu.com.a.bdydns.com", "opencdnbdsimage.jomodns.com", "240e:95d:1901:100::7764:3224"]
+[2m2022-05-30T15:48:00.014180Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:128   remain unmached: 7   loss: 5.47%
+[2m2022-05-30T15:48:10.076427Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 18161 10.69.243.31:52263 <--> 114.114.114.114:53    ["img0.baidu.com"] ["img0.baidu.com.a.bdydns.com", "opencdnssl.jomodns.com"]
+[2m2022-05-30T15:48:10.076449Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:136   remain unmached: 14   loss: 10.29%
+[2m2022-05-30T15:48:10.080795Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 65414 10.69.243.31:36294 <--> 114.114.114.114:53    ["img2.baidu.com"] ["img2.baidu.com.a.bdydns.com", "opencdnssl.jomodns.com"]
+[2m2022-05-30T15:48:10.080820Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:136   remain unmached: 13   loss: 9.56%
+[2m2022-05-30T15:48:10.103954Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 2803 10.69.243.31:60321 <--> 114.114.114.114:53    ["img0.baidu.com"] ["img0.baidu.com.a.bdydns.com", "opencdnssl.jomodns.com", "113.125.220.198", "119.84.244.99", "111.174.14.64"]
+[2m2022-05-30T15:48:10.103977Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:136   remain unmached: 12   loss: 8.82%
+[2m2022-05-30T15:48:10.103988Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 24036 10.69.243.31:33098 <--> 114.114.114.114:53    ["img2.baidu.com"] ["img2.baidu.com.a.bdydns.com", "opencdnssl.jomodns.com", "113.125.220.198", "111.174.14.64", "119.84.244.99"]
+[2m2022-05-30T15:48:10.103997Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:136   remain unmached: 11   loss: 8.09%
+[2m2022-05-30T15:48:10.127598Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 2803 10.69.243.31:42331 <--> 8.8.8.8:53    ["img0.baidu.com"] ["img0.baidu.com.a.bdydns.com", "opencdnssl.jomodns.com", "125.74.110.35", "124.225.184.35", "124.238.121.35", "125.64.104.35", "123.52.189.35", "140.249.244.35", "150.138.110.35", "150.138.188.35", "171.107.86.35", "180.97.64.35"]
+[2m2022-05-30T15:48:10.127673Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:136   remain unmached: 10   loss: 7.35%
+[2m2022-05-30T15:48:10.136923Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 65414 10.69.243.31:42333 <--> 8.8.8.8:53    ["img2.baidu.com"] ["img2.baidu.com.a.bdydns.com", "opencdnssl.jomodns.com"]
+[2m2022-05-30T15:48:10.136946Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:136   remain unmached: 9   loss: 6.62%
+[2m2022-05-30T15:48:10.241430Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 18161 10.69.243.31:55988 <--> 8.8.8.8:53    ["img0.baidu.com"] ["img0.baidu.com.a.bdydns.com", "opencdnssl.jomodns.com"]
+[2m2022-05-30T15:48:10.241466Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:136   remain unmached: 8   loss: 5.88%
+[2m2022-05-30T15:48:14.220298Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 54763 10.69.243.31:36915 <--> 114.114.114.114:53    ["haokan.baidu.com"] ["nvideo.n.shifen.com"]
+[2m2022-05-30T15:48:14.220329Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:140   remain unmached: 11   loss: 7.86%
+[2m2022-05-30T15:48:14.237680Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 56879 10.69.243.31:59168 <--> 114.114.114.114:53    ["haokan.baidu.com"] ["nvideo.n.shifen.com", "180.97.36.22"]
+[2m2022-05-30T15:48:14.237702Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:140   remain unmached: 10   loss: 7.14%
+[2m2022-05-30T15:48:14.346769Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 54763 10.69.243.31:56693 <--> 8.8.8.8:53    ["haokan.baidu.com"] ["nvideo.n.shifen.com"]
+[2m2022-05-30T15:48:14.346785Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:140   remain unmached: 9   loss: 6.43%
+[2m2022-05-30T15:48:14.366602Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 56879 10.69.243.31:35450 <--> 8.8.8.8:53    ["haokan.baidu.com"] ["nvideo.n.shifen.com", "180.97.36.22"]
+[2m2022-05-30T15:48:14.366619Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:140   remain unmached: 8   loss: 5.71%
+[2m2022-05-30T15:48:15.027523Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 26069 10.69.243.31:35391 <--> 114.114.114.114:53    ["hk.bdstatic.com"] ["hk.bdstatic.com.a.bdydns.com", "opencdnbd.jomodns.com", "119.100.50.38", "1.81.3.38"]
+[2m2022-05-30T15:48:15.027549Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:152   remain unmached: 19   loss: 12.50%
+[2m2022-05-30T15:48:15.043125Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 3248 10.69.243.31:54886 <--> 114.114.114.114:53    ["hk.bdstatic.com"] ["hk.bdstatic.com.a.bdydns.com", "opencdnbd.jomodns.com", "240e:ff:d190:601::7160:b226"]
+[2m2022-05-30T15:48:15.043142Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:152   remain unmached: 18   loss: 11.84%
+[2m2022-05-30T15:48:15.045780Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 22217 10.69.243.31:36857 <--> 114.114.114.114:53    ["mediago-static.cdn.bcebos.com"] ["mediago-static.cdn.bcebos.com.a.bdydns.com", "opencdnbd.jomodns.com", "119.100.50.38", "1.81.3.38"]
+[2m2022-05-30T15:48:15.045803Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:152   remain unmached: 17   loss: 11.18%
+[2m2022-05-30T15:48:15.184378Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 42173 10.69.243.31:57441 <--> 114.114.114.114:53    ["code.bdstatic.com"] ["code.bdstatic.com.a.bdydns.com", "opencdnglobal.jomodns.com"]
+[2m2022-05-30T15:48:15.184405Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:152   remain unmached: 16   loss: 10.53%
+[2m2022-05-30T15:48:15.184417Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 11810 10.69.243.31:60008 <--> 114.114.114.114:53    ["code.bdstatic.com"] ["code.bdstatic.com.a.bdydns.com", "opencdnglobal.jomodns.com", "119.96.52.35"]
+[2m2022-05-30T15:48:15.184425Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:152   remain unmached: 15   loss: 9.87%
+[2m2022-05-30T15:48:15.184436Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 45557 10.69.243.31:47559 <--> 114.114.114.114:53    ["mediago-static.cdn.bcebos.com"] ["mediago-static.cdn.bcebos.com.a.bdydns.com", "opencdnbd.jomodns.com", "240e:ff:d190:601::7160:b226"]
+[2m2022-05-30T15:48:15.184445Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:152   remain unmached: 14   loss: 9.21%
+[2m2022-05-30T15:48:15.184608Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 26069 10.69.243.31:39554 <--> 8.8.8.8:53    ["hk.bdstatic.com"] ["hk.bdstatic.com.a.bdydns.com", "opencdnbd.jomodns.com", "113.105.172.38"]
+[2m2022-05-30T15:48:15.184620Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:152   remain unmached: 13   loss: 8.55%
+[2m2022-05-30T15:48:15.184629Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 45557 10.69.243.31:54721 <--> 8.8.8.8:53    ["mediago-static.cdn.bcebos.com"] ["mediago-static.cdn.bcebos.com.a.bdydns.com", "opencdnbd.jomodns.com"]
+[2m2022-05-30T15:48:15.184640Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:152   remain unmached: 12   loss: 7.89%
+[2m2022-05-30T15:48:15.184647Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 11810 10.69.243.31:41876 <--> 8.8.8.8:53    ["code.bdstatic.com"] ["code.bdstatic.com.a.bdydns.com", "opencdnglobal.jomodns.com", "opencdnglobal.gshifen.com", "45.113.192.94"]
+[2m2022-05-30T15:48:15.184658Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:152   remain unmached: 11   loss: 7.24%
+[2m2022-05-30T15:48:15.184664Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 3248 10.69.243.31:48822 <--> 8.8.8.8:53    ["hk.bdstatic.com"] ["hk.bdstatic.com.a.bdydns.com", "opencdnbd.jomodns.com"]
+[2m2022-05-30T15:48:15.184670Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:152   remain unmached: 10   loss: 6.58%
+[2m2022-05-30T15:48:15.294968Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 22217 10.69.243.31:55580 <--> 8.8.8.8:53    ["mediago-static.cdn.bcebos.com"] ["mediago-static.cdn.bcebos.com.a.bdydns.com", "opencdnbd.jomodns.com", "106.225.194.38", "113.113.73.38", "119.100.50.38", "182.107.80.38"]
+[2m2022-05-30T15:48:15.294986Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:152   remain unmached: 9   loss: 5.92%
+[2m2022-05-30T15:48:15.865345Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 22305 10.69.243.31:54372 <--> 114.114.114.114:53    ["vd3.bdstatic.com"] ["feedvideo.jomodns.com", "vd1.bdstatic.com.vod.galileo.jcloud-cdn.com", "baidu-bfp-v6.jdcloudedge.com", "220.168.132.5", "1.194.227.5", "124.225.199.5", "14.29.83.5", "1.194.227.20", "119.0.68.81", "121.226.246.5", "111.170.27.129", "116.207.187.5", "119.0.67.5"]
+[2m2022-05-30T15:48:15.865382Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:172   remain unmached: 28   loss: 16.28%
+[2m2022-05-30T15:48:15.865396Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 28736 10.69.243.31:51586 <--> 114.114.114.114:53    ["f7.baidu.com"] ["f7.baidu.com.a.bdydns.com", "opencdnbdimgtn.jomodns.com", "175.6.206.36", "175.6.243.36"]
+[2m2022-05-30T15:48:15.865406Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:172   remain unmached: 27   loss: 15.70%
+[2m2022-05-30T15:48:15.865414Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 42902 10.69.243.31:59963 <--> 114.114.114.114:53    ["passport.baidu.com"] ["passport.n.shifen.com", "220.181.33.191", "220.181.33.24"]
+[2m2022-05-30T15:48:15.865421Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:172   remain unmached: 26   loss: 15.12%
+[2m2022-05-30T15:48:15.866625Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 54901 10.69.243.31:50969 <--> 114.114.114.114:53    ["dmpstatic.cdn.bcebos.com"] ["dmpstatic.cdn.bcebos.com.a.bdydns.com", "opencdn.jomodns.com", "121.12.53.35", "106.225.194.35"]
+[2m2022-05-30T15:48:15.866640Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:172   remain unmached: 25   loss: 14.53%
+[2m2022-05-30T15:48:15.882763Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 52054 10.69.243.31:55876 <--> 114.114.114.114:53    ["pic.rmb.bdstatic.com"] ["pic.rmb.bdstatic.com.a.bdydns.com", "opencdnpicrmb.jomodns.com", "183.60.219.35", "111.174.9.35"]
+[2m2022-05-30T15:48:15.882784Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:180   remain unmached: 32   loss: 17.78%
+[2m2022-05-30T15:48:15.889237Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 35447 10.69.243.31:46159 <--> 114.114.114.114:53    ["dmpstatic.cdn.bcebos.com"] ["dmpstatic.cdn.bcebos.com.a.bdydns.com", "opencdn.jomodns.com"]
+[2m2022-05-30T15:48:15.889263Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:180   remain unmached: 31   loss: 17.22%
+[2m2022-05-30T15:48:15.889278Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 40586 10.69.243.31:58600 <--> 114.114.114.114:53    ["vd3.bdstatic.com"] ["feedvideo.jomodns.com", "vd1.bdstatic.com.vod.galileo.jcloud-cdn.com", "baidu-bfp-v6.jdcloudedge.com", "240e:93c:210:6:8000::5", "240e:93c:210:6:8000::20", "240e:95d:c02:a:8000::129", "240e:938:a05:1:8000::81", "240e:969:5000:1:8000::5", "240e:938:a05:20:8000::5", "240e:95d:1010:5:8000::5", "240e:914:14:a:8000::5", "240e:983:1e00:2:8000::5", "240e:978:1c60:0:8000::5"]
+[2m2022-05-30T15:48:15.889292Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:180   remain unmached: 30   loss: 16.67%
+[2m2022-05-30T15:48:15.892583Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 22268 10.69.243.31:59789 <--> 114.114.114.114:53    ["pic.rmb.bdstatic.com"] ["pic.rmb.bdstatic.com.a.bdydns.com", "opencdnpicrmb.jomodns.com", "240e:97f:2000:201::7171:4923"]
+[2m2022-05-30T15:48:15.892602Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:180   remain unmached: 29   loss: 16.11%
+[2m2022-05-30T15:48:15.896090Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 27750 10.69.243.31:44461 <--> 114.114.114.114:53    ["f7.baidu.com"] ["f7.baidu.com.a.bdydns.com", "opencdnbdimgtn.jomodns.com", "240e:95d:1901:100::7764:3224"]
+[2m2022-05-30T15:48:15.896112Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:180   remain unmached: 28   loss: 15.56%
+[2m2022-05-30T15:48:15.896123Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 4308 10.69.243.31:53812 <--> 114.114.114.114:53    ["passport.baidu.com"] ["passport.n.shifen.com"]
+[2m2022-05-30T15:48:15.896129Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:180   remain unmached: 27   loss: 15.00%
+[2m2022-05-30T15:48:15.914384Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 54901 10.69.243.31:37699 <--> 8.8.8.8:53    ["dmpstatic.cdn.bcebos.com"] ["dmpstatic.cdn.bcebos.com.a.bdydns.com", "opencdn.jomodns.com", "14.215.89.35", "121.32.228.35"]
+[2m2022-05-30T15:48:15.914431Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:180   remain unmached: 26   loss: 14.44%
+[2m2022-05-30T15:48:15.920796Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 46671 10.69.243.31:37330 <--> 114.114.114.114:53    ["vd4.bdstatic.com"] ["feedvd4.jomodns.com", "vd1.bdstatic.com.vod.galileo.jcloud-cdn.com", "baidu-bfp-v6.jdcloudedge.com", "240e:969:5000:1:8000::5", "240e:914:14:a:8000::5", "240e:983:1e00:2:8000::5", "240e:95d:c02:a:8000::129", "240e:93c:210:6:8000::20", "240e:978:1c60:0:8000::5", "240e:938:a05:1:8000::81", "240e:95d:1010:5:8000::5", "240e:938:a05:20:8000::5", "240e:93c:210:6:8000::5"]
+[2m2022-05-30T15:48:15.920815Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:180   remain unmached: 25   loss: 13.89%
+[2m2022-05-30T15:48:15.920822Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 14654 10.69.243.31:58655 <--> 114.114.114.114:53    ["mbd.baidu.com"] ["mbd.n.shifen.com"]
+[2m2022-05-30T15:48:15.920827Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:180   remain unmached: 24   loss: 13.33%
+[2m2022-05-30T15:48:15.927261Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 46261 10.69.243.31:32927 <--> 114.114.114.114:53    ["mbd.baidu.com"] ["mbd.n.shifen.com", "180.101.49.57", "180.101.49.185"]
+[2m2022-05-30T15:48:15.927277Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:180   remain unmached: 23   loss: 12.78%
+[2m2022-05-30T15:48:15.931130Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 27750 10.69.243.31:58903 <--> 8.8.8.8:53    ["f7.baidu.com"] ["f7.baidu.com.a.bdydns.com", "opencdnbdimgtn.jomodns.com", "opencdnbdimgtn.gshifen.com"]
+[2m2022-05-30T15:48:15.931161Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:180   remain unmached: 22   loss: 12.22%
+[2m2022-05-30T15:48:15.932546Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 6286 10.69.243.31:48236 <--> 114.114.114.114:53    ["vd4.bdstatic.com"] ["feedvd4.jomodns.com", "vd1.bdstatic.com.vod.galileo.jcloud-cdn.com", "baidu-bfp-v6.jdcloudedge.com", "14.29.83.5", "1.194.227.5", "121.226.246.5", "220.168.132.5", "119.0.68.81", "111.170.27.129", "1.194.227.20", "116.207.187.5", "124.225.199.5", "119.0.67.5"]
+[2m2022-05-30T15:48:15.932571Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:180   remain unmached: 21   loss: 11.67%
+[2m2022-05-30T15:48:15.933870Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 28736 10.69.243.31:47028 <--> 8.8.8.8:53    ["f7.baidu.com"] ["f7.baidu.com.a.bdydns.com", "opencdnbdimgtn.jomodns.com", "opencdnbdimgtn.gshifen.com", "45.113.193.83"]
+[2m2022-05-30T15:48:15.933883Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:180   remain unmached: 20   loss: 11.11%
+[2m2022-05-30T15:48:15.935256Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 22305 10.69.243.31:34539 <--> 8.8.8.8:53    ["vd3.bdstatic.com"] ["feedvideo.jomodns.com", "feedvideo.gshifen.com", "45.113.192.88"]
+[2m2022-05-30T15:48:15.935263Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:180   remain unmached: 19   loss: 10.56%
+[2m2022-05-30T15:48:15.938073Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 42902 10.69.243.31:41474 <--> 8.8.8.8:53    ["passport.baidu.com"] ["passport.n.shifen.com", "220.181.33.24", "220.181.33.191"]
+[2m2022-05-30T15:48:15.938082Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:180   remain unmached: 18   loss: 10.00%
+[2m2022-05-30T15:48:15.938726Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 40586 10.69.243.31:38567 <--> 8.8.8.8:53    ["vd3.bdstatic.com"] ["feedvideo.jomodns.com", "feedvideo.gshifen.com"]
+[2m2022-05-30T15:48:15.938739Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:180   remain unmached: 17   loss: 9.44%
+[2m2022-05-30T15:48:15.943260Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 52054 10.69.243.31:46163 <--> 8.8.8.8:53    ["pic.rmb.bdstatic.com"] ["pic.rmb.bdstatic.com.a.bdydns.com", "opencdnpicrmb.jomodns.com", "183.56.138.35", "111.174.1.35"]
+[2m2022-05-30T15:48:15.943272Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:180   remain unmached: 16   loss: 8.89%
+[2m2022-05-30T15:48:15.943279Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 14654 10.69.243.31:34125 <--> 8.8.8.8:53    ["mbd.baidu.com"] ["mbd.n.shifen.com", "mbd.wshifen.com"]
+[2m2022-05-30T15:48:15.943286Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:180   remain unmached: 15   loss: 8.33%
+[2m2022-05-30T15:48:15.973641Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 6286 10.69.243.31:35051 <--> 8.8.8.8:53    ["vd4.bdstatic.com"] ["feedvd4.jomodns.com", "feedvideo.gshifen.com", "45.113.192.88"]
+[2m2022-05-30T15:48:15.973660Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:180   remain unmached: 14   loss: 7.78%
+[2m2022-05-30T15:48:15.977208Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 46261 10.69.243.31:60163 <--> 8.8.8.8:53    ["mbd.baidu.com"] ["mbd.n.shifen.com", "mbd.wshifen.com", "45.113.192.110"]
+[2m2022-05-30T15:48:15.977223Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:180   remain unmached: 13   loss: 7.22%
+[2m2022-05-30T15:48:15.982374Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 35447 10.69.243.31:38604 <--> 8.8.8.8:53    ["dmpstatic.cdn.bcebos.com"] ["dmpstatic.cdn.bcebos.com.a.bdydns.com", "opencdn.jomodns.com"]
+[2m2022-05-30T15:48:15.982393Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:180   remain unmached: 12   loss: 6.67%
+[2m2022-05-30T15:48:16.004030Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 46671 10.69.243.31:43961 <--> 8.8.8.8:53    ["vd4.bdstatic.com"] ["feedvd4.jomodns.com", "vd3.bdstatic.com.w.alikunlun.com", "240e:97d:2000:500:3::3fe", "240e:97d:2000:500:3::3fd"]
+[2m2022-05-30T15:48:16.004048Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:184   remain unmached: 15   loss: 8.15%
+[2m2022-05-30T15:48:16.011759Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 4308 10.69.243.31:60614 <--> 8.8.8.8:53    ["passport.baidu.com"] ["passport.n.shifen.com"]
+[2m2022-05-30T15:48:16.011782Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:184   remain unmached: 14   loss: 7.61%
+[2m2022-05-30T15:48:16.033893Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 44976 10.69.243.31:56302 <--> 114.114.114.114:53    ["ocsp.digicert.cn"] ["ocsp.digicert.cn.w.cdngslb.com", "58.216.118.230"]
+[2m2022-05-30T15:48:16.033943Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:184   remain unmached: 13   loss: 7.07%
+[2m2022-05-30T15:48:16.041151Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 53657 10.69.243.31:33789 <--> 114.114.114.114:53    ["ocsp.digicert.cn"] ["ocsp.digicert.cn.w.cdngslb.com"]
+[2m2022-05-30T15:48:16.041173Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:184   remain unmached: 12   loss: 6.52%
+[2m2022-05-30T15:48:16.186906Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 53657 10.69.243.31:56075 <--> 8.8.8.8:53    ["ocsp.digicert.cn"] ["ocsp.digicert.cn.w.cdngslb.com"]
+[2m2022-05-30T15:48:16.186922Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:184   remain unmached: 11   loss: 5.98%
+[2m2022-05-30T15:48:24.942739Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 24305 10.69.243.31:53985 <--> 114.114.114.114:53    ["news.e23.cn"] ["news.e23.cn.wswebcdn.com", "113.219.132.68", "113.219.132.25"]
+[2m2022-05-30T15:48:24.942757Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:188   remain unmached: 14   loss: 7.45%
+[2m2022-05-30T15:48:24.942765Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 43564 10.69.243.31:52606 <--> 114.114.114.114:53    ["news.e23.cn"] ["news.e23.cn.wswebcdn.com", "240e:c3:2800::26", "240e:c3:2800::22"]
+[2m2022-05-30T15:48:24.942771Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:188   remain unmached: 13   loss: 6.91%
+[2m2022-05-30T15:48:24.942776Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 24305 10.69.243.31:55213 <--> 8.8.8.8:53    ["news.e23.cn"] ["news.e23.cn.wswebcdn.com", "113.219.132.25", "113.219.132.68"]
+[2m2022-05-30T15:48:24.942781Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:188   remain unmached: 12   loss: 6.38%
+[2m2022-05-30T15:48:24.970601Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 43564 10.69.243.31:35112 <--> 8.8.8.8:53    ["news.e23.cn"] ["news.e23.cn.wswebcdn.com", "240e:c3:2800::26", "240e:c3:2800::22"]
+[2m2022-05-30T15:48:24.970616Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:188   remain unmached: 11   loss: 5.85%
+[2m2022-05-30T15:48:25.267072Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 20344 10.69.243.31:51322 <--> 114.114.114.114:53    ["ocsp.dcocsp.cn"] ["ocsp.dcocsp.cn.w.kunlunar.com"]
+[2m2022-05-30T15:48:25.267089Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:192   remain unmached: 14   loss: 7.29%
+[2m2022-05-30T15:48:25.273435Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 44344 10.69.243.31:46192 <--> 114.114.114.114:53    ["ocsp.dcocsp.cn"] ["ocsp.dcocsp.cn.w.kunlunar.com", "58.215.123.239", "58.215.123.241", "58.215.123.248", "58.215.123.242", "58.215.123.243", "58.215.123.240", "58.215.123.238", "58.215.123.244"]
+[2m2022-05-30T15:48:25.273453Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:192   remain unmached: 13   loss: 6.77%
+[2m2022-05-30T15:48:25.521858Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 44344 10.69.243.31:53422 <--> 8.8.8.8:53    ["ocsp.dcocsp.cn"] ["ocsp.dcocsp.cn.w.kunlunar.com", "175.6.241.249", "175.6.241.250", "175.6.237.70", "175.6.237.98", "175.6.241.244", "175.6.241.245", "175.6.241.246", "175.6.241.248"]
+[2m2022-05-30T15:48:25.521878Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:192   remain unmached: 12   loss: 6.25%
+[2m2022-05-30T15:48:25.521885Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 20344 10.69.243.31:33979 <--> 8.8.8.8:53    ["ocsp.dcocsp.cn"] ["ocsp.dcocsp.cn.w.kunlunar.com"]
+[2m2022-05-30T15:48:25.521892Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:192   remain unmached: 11   loss: 5.73%
+[2m2022-05-30T15:48:26.135551Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 1411 10.69.243.31:55875 <--> 114.114.114.114:53    ["nt.e23.cn"] ["218.57.134.76"]
+[2m2022-05-30T15:48:26.135566Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:196   remain unmached: 14   loss: 7.14%
+[2m2022-05-30T15:48:26.208391Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 45686 10.69.243.31:35792 <--> 8.8.8.8:53    ["nt.e23.cn"] ["2408:8614:200::14"]
+[2m2022-05-30T15:48:26.208414Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:196   remain unmached: 13   loss: 6.63%
+[2m2022-05-30T15:48:26.211743Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 1411 10.69.243.31:52548 <--> 8.8.8.8:53    ["nt.e23.cn"] ["218.57.134.76"]
+[2m2022-05-30T15:48:26.211755Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:196   remain unmached: 12   loss: 6.12%
+[2m2022-05-30T15:48:26.216720Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 45686 10.69.243.31:33857 <--> 114.114.114.114:53    ["nt.e23.cn"] ["2408:8614:200::14"]
+[2m2022-05-30T15:48:26.216752Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:196   remain unmached: 11   loss: 5.61%
+[2m2022-05-30T15:48:26.275593Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 63675 10.69.243.31:60356 <--> 114.114.114.114:53    ["www.e23.cn"] ["www.e23.cn.wswebcdn.com", "113.219.132.25", "113.219.132.68"]
+[2m2022-05-30T15:48:26.275685Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:204   remain unmached: 18   loss: 8.82%
+[2m2022-05-30T15:48:26.277943Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 42564 10.69.243.31:45190 <--> 114.114.114.114:53    ["img2.cache.netease.com"] ["img2.cache.netease.com.163jiasu.com", "img2.cache.netease.com.bsgslb.cn", "z163pic.v.bsgslb.cn", "202.109.158.60", "202.109.158.61", "202.109.158.62"]
+[2m2022-05-30T15:48:26.277982Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:204   remain unmached: 17   loss: 8.33%
+[2m2022-05-30T15:48:26.307104Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 6808 10.69.243.31:35065 <--> 114.114.114.114:53    ["img2.cache.netease.com"] ["img2.cache.netease.com.163jiasu.com", "img2.cache.netease.com.bsgslb.cn", "z163pic.v.bsgslb.cn"]
+[2m2022-05-30T15:48:26.307137Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:204   remain unmached: 16   loss: 7.84%
+[2m2022-05-30T15:48:26.311131Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 19693 10.69.243.31:36033 <--> 8.8.8.8:53    ["www.e23.cn"] ["www.e23.cn.wswebcdn.com", "240e:c3:2800::26", "240e:c3:2800::22"]
+[2m2022-05-30T15:48:26.311158Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:204   remain unmached: 15   loss: 7.35%
+[2m2022-05-30T15:48:26.420428Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 19693 10.69.243.31:33887 <--> 114.114.114.114:53    ["www.e23.cn"] ["www.e23.cn.wswebcdn.com", "240e:c3:2800::22", "240e:c3:2800::26"]
+[2m2022-05-30T15:48:26.420455Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:208   remain unmached: 18   loss: 8.65%
+[2m2022-05-30T15:48:26.433952Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 63675 10.69.243.31:60624 <--> 8.8.8.8:53    ["www.e23.cn"] ["www.e23.cn.wswebcdn.com", "113.219.132.68", "113.219.132.25"]
+[2m2022-05-30T15:48:26.434006Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:208   remain unmached: 17   loss: 8.17%
+[2m2022-05-30T15:48:26.462954Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 59542 10.69.243.31:56018 <--> 114.114.114.114:53    ["img01.e23.cn"] ["img01.e23.cn.wswebcdn.com", "240e:c3:2800::26", "240e:c3:2800::22"]
+[2m2022-05-30T15:48:26.463007Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:212   remain unmached: 20   loss: 9.43%
+[2m2022-05-30T15:48:26.485443Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 7862 10.69.243.31:43417 <--> 114.114.114.114:53    ["img01.e23.cn"] ["img01.e23.cn.wswebcdn.com", "113.219.132.25", "113.219.132.68"]
+[2m2022-05-30T15:48:26.485464Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:212   remain unmached: 19   loss: 8.96%
+[2m2022-05-30T15:48:26.502548Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 30461 10.69.243.31:40586 <--> 114.114.114.114:53    ["www.beian.gov.cn"] ["219.142.142.150"]
+[2m2022-05-30T15:48:26.502568Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:212   remain unmached: 18   loss: 8.49%
+[2m2022-05-30T15:48:26.504885Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 46361 10.69.243.31:44464 <--> 114.114.114.114:53    ["www.beian.gov.cn"] []
+[2m2022-05-30T15:48:26.504898Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:212   remain unmached: 17   loss: 8.02%
+[2m2022-05-30T15:48:26.563985Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 7862 10.69.243.31:53942 <--> 8.8.8.8:53    ["img01.e23.cn"] ["img01.e23.cn.wswebcdn.com", "113.219.132.68", "113.219.132.25"]
+[2m2022-05-30T15:48:26.564030Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:212   remain unmached: 16   loss: 7.55%
+[2m2022-05-30T15:48:26.604982Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 30461 10.69.243.31:39833 <--> 8.8.8.8:53    ["www.beian.gov.cn"] ["219.142.142.150"]
+[2m2022-05-30T15:48:26.605000Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:212   remain unmached: 15   loss: 7.08%
+[2m2022-05-30T15:48:26.605010Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 42564 10.69.243.31:34673 <--> 8.8.8.8:53    ["img2.cache.netease.com"] ["img2.cache.netease.com.163jiasu.com", "img2.cache.netease.com.bsgslb.cn", "z163pic.v.bsgslb.cn", "202.109.158.61", "202.109.158.62", "202.109.158.60"]
+[2m2022-05-30T15:48:26.605019Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:212   remain unmached: 14   loss: 6.60%
+[2m2022-05-30T15:48:26.609650Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 59542 10.69.243.31:60642 <--> 8.8.8.8:53    ["img01.e23.cn"] ["img01.e23.cn.wswebcdn.com", "240e:c3:2800::26", "240e:c3:2800::22"]
+[2m2022-05-30T15:48:26.609666Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:212   remain unmached: 13   loss: 6.13%
+[2m2022-05-30T15:48:26.703626Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 46361 10.69.243.31:38766 <--> 8.8.8.8:53    ["www.beian.gov.cn"] []
+[2m2022-05-30T15:48:26.703651Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:220   remain unmached: 20   loss: 9.09%
+[2m2022-05-30T15:48:26.725097Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 62675 10.69.243.31:36888 <--> 114.114.114.114:53    ["caiyunapp.com"] ["139.129.106.176"]
+[2m2022-05-30T15:48:26.725115Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:220   remain unmached: 19   loss: 8.64%
+[2m2022-05-30T15:48:26.725122Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 13071 10.69.243.31:39012 <--> 114.114.114.114:53    ["caiyunapp.com"] []
+[2m2022-05-30T15:48:26.725125Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:220   remain unmached: 18   loss: 8.18%
+[2m2022-05-30T15:48:26.726207Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 35892 10.69.243.31:49645 <--> 114.114.114.114:53    ["www.caiyunapp.com"] ["139.129.106.176"]
+[2m2022-05-30T15:48:26.726227Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:220   remain unmached: 17   loss: 7.73%
+[2m2022-05-30T15:48:26.729377Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 30937 10.69.243.31:53081 <--> 114.114.114.114:53    ["www.caiyunapp.com"] []
+[2m2022-05-30T15:48:26.729399Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:220   remain unmached: 16   loss: 7.27%
+[2m2022-05-30T15:48:26.781005Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 62675 10.69.243.31:39149 <--> 8.8.8.8:53    ["caiyunapp.com"] ["139.129.106.176"]
+[2m2022-05-30T15:48:26.781027Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:220   remain unmached: 15   loss: 6.82%
+[2m2022-05-30T15:48:26.813196Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 30937 10.69.243.31:37273 <--> 8.8.8.8:53    ["www.caiyunapp.com"] []
+[2m2022-05-30T15:48:26.813219Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:220   remain unmached: 14   loss: 6.36%
+[2m2022-05-30T15:48:26.836706Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 13071 10.69.243.31:40995 <--> 8.8.8.8:53    ["caiyunapp.com"] []
+[2m2022-05-30T15:48:26.836739Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:220   remain unmached: 13   loss: 5.91%
+[2m2022-05-30T15:48:28.900663Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 6808 10.69.243.31:46175 <--> 8.8.8.8:53    ["img2.cache.netease.com"] ["img2.cache.netease.com.163jiasu.com", "img2.cache.netease.com.bsgslb.cn", "z163pic.v.bsgslb.cn"]
+[2m2022-05-30T15:48:28.900710Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:220   remain unmached: 12   loss: 5.45%
+[2m2022-05-30T15:48:40.373008Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 54808 10.69.243.31:49304 <--> 114.114.114.114:53    ["gae2-spclient.spotify.com"] ["edge-web-gae2.dual-gslb.spotify.com", "35.186.224.13"]
+[2m2022-05-30T15:48:40.373035Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:224   remain unmached: 15   loss: 6.70%
+[2m2022-05-30T15:48:40.416407Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 54808 10.69.243.31:45572 <--> 8.8.8.8:53    ["gae2-spclient.spotify.com"] ["edge-web-gae2.dual-gslb.spotify.com", "35.186.224.13"]
+[2m2022-05-30T15:48:40.416433Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:224   remain unmached: 14   loss: 6.25%
+[2m2022-05-30T15:48:40.419580Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 61410 10.69.243.31:53161 <--> 114.114.114.114:53    ["gae2-spclient.spotify.com"] ["edge-web-gae2.dual-gslb.spotify.com", "2600:1901:1:916::"]
+[2m2022-05-30T15:48:40.419599Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:224   remain unmached: 13   loss: 5.80%
+[2m2022-05-30T15:48:40.512306Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 61410 10.69.243.31:50791 <--> 8.8.8.8:53    ["gae2-spclient.spotify.com"] ["edge-web-gae2.dual-gslb.spotify.com", "2600:1901:1:916::"]
+[2m2022-05-30T15:48:40.512324Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:224   remain unmached: 12   loss: 5.36%
+[2m2022-05-30T15:48:53.378901Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 46676 10.69.243.31:55031 <--> 114.114.114.114:53    ["www.zhihu.com"] ["www.zhihu.com.ipv6.dsa.dnsv1.com", "1595096.sched.d0-dk.tdnsdp1.cn", "1595096.sched.d0-dk.tdnsdp1.cn.cjt.cdn.chinaidcnet.com", "240e:c3:4000:8:36::", "240e:c3:4000:8:38::", "240e:c3:4000:8:34::"]
+[2m2022-05-30T15:48:53.378951Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:228   remain unmached: 15   loss: 6.58%
+[2m2022-05-30T15:48:53.378966Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 11011 10.69.243.31:34617 <--> 114.114.114.114:53    ["www.zhihu.com"] ["www.zhihu.com.ipv6.dsa.dnsv1.com", "1595096.sched.d0-dk.tdnsdp1.cn", "1595096.sched.d0-dk.tdnsdp1.cn.cjt.cdn.chinaidcnet.com", "113.219.165.53", "113.219.165.54", "113.219.165.56", "113.219.165.55"]
+[2m2022-05-30T15:48:53.378976Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:228   remain unmached: 14   loss: 6.14%
+[2m2022-05-30T15:48:53.584387Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 46676 10.69.243.31:49447 <--> 8.8.8.8:53    ["www.zhihu.com"] ["www.zhihu.com.ipv6.dsa.dnsv1.com", "1595096.sched.d0-dk.tdnsdp1.cn", "240e:c3:4000:8:34::", "240e:c3:4000:8:36::", "240e:c3:4000:8:38::"]
+[2m2022-05-30T15:48:53.584419Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:228   remain unmached: 13   loss: 5.70%
+[2m2022-05-30T15:48:53.674391Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 11011 10.69.243.31:40900 <--> 8.8.8.8:53    ["www.zhihu.com"] ["www.zhihu.com.dsa.dnsv1.com", "1595096.sched.d0-dk.tdnsdp1.cn", "1595096.sched.d0-dk.tdnsdp1.cn.cjt.cdn.chinaidcnet.com", "113.219.165.56", "113.219.165.54", "113.219.165.55", "113.219.165.53"]
+[2m2022-05-30T15:48:53.674415Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:228   remain unmached: 12   loss: 5.26%
+[2m2022-05-30T15:48:54.411193Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 32605 10.69.243.31:42888 <--> 114.114.114.114:53    ["ss0.baidu.com"] ["sslbaidu.jomodns.com"]
+[2m2022-05-30T15:48:54.411245Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:244   remain unmached: 27   loss: 11.07%
+[2m2022-05-30T15:48:54.413281Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 632 10.69.243.31:42913 <--> 114.114.114.114:53    ["ss1.baidu.com"] ["sslbaidu.jomodns.com", "220.169.152.33"]
+[2m2022-05-30T15:48:54.413296Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:244   remain unmached: 26   loss: 10.66%
+[2m2022-05-30T15:48:54.414356Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 43795 10.69.243.31:57467 <--> 114.114.114.114:53    ["ss1.baidu.com"] ["sslbaidu.jomodns.com"]
+[2m2022-05-30T15:48:54.414365Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:244   remain unmached: 25   loss: 10.25%
+[2m2022-05-30T15:48:54.419274Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 24813 10.69.243.31:47830 <--> 114.114.114.114:53    ["ss0.baidu.com"] ["sslbaidu.jomodns.com", "220.169.152.33"]
+[2m2022-05-30T15:48:54.419291Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:244   remain unmached: 24   loss: 9.84%
+[2m2022-05-30T15:48:54.419298Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 60691 10.69.243.31:45217 <--> 114.114.114.114:53    ["ss2.baidu.com"] ["sslbaidu.jomodns.com", "220.169.152.33"]
+[2m2022-05-30T15:48:54.419302Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:244   remain unmached: 23   loss: 9.43%
+[2m2022-05-30T15:48:54.419308Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 58705 10.69.243.31:45675 <--> 114.114.114.114:53    ["ss3.baidu.com"] ["sslbaidu.jomodns.com", "220.169.152.33"]
+[2m2022-05-30T15:48:54.419312Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:244   remain unmached: 22   loss: 9.02%
+[2m2022-05-30T15:48:54.423951Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 33360 10.69.243.31:60921 <--> 114.114.114.114:53    ["ss2.baidu.com"] ["sslbaidu.jomodns.com"]
+[2m2022-05-30T15:48:54.423971Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:244   remain unmached: 21   loss: 8.61%
+[2m2022-05-30T15:48:54.423979Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 58844 10.69.243.31:50369 <--> 114.114.114.114:53    ["ss3.baidu.com"] ["sslbaidu.jomodns.com"]
+[2m2022-05-30T15:48:54.423984Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:244   remain unmached: 20   loss: 8.20%
+[2m2022-05-30T15:48:54.438909Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 58705 10.69.243.31:41409 <--> 8.8.8.8:53    ["ss3.baidu.com"] ["sslbaidu.jomodns.com", "113.113.67.33"]
+[2m2022-05-30T15:48:54.438925Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:244   remain unmached: 19   loss: 7.79%
+[2m2022-05-30T15:48:54.442777Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 43795 10.69.243.31:47874 <--> 8.8.8.8:53    ["ss1.baidu.com"] ["sslbaidu.jomodns.com"]
+[2m2022-05-30T15:48:54.442797Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:244   remain unmached: 18   loss: 7.38%
+[2m2022-05-30T15:48:54.442805Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 32605 10.69.243.31:46799 <--> 8.8.8.8:53    ["ss0.baidu.com"] ["sslbaidu.jomodns.com"]
+[2m2022-05-30T15:48:54.442810Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:244   remain unmached: 17   loss: 6.97%
+[2m2022-05-30T15:48:54.442816Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 60691 10.69.243.31:34984 <--> 8.8.8.8:53    ["ss2.baidu.com"] ["sslbaidu.jomodns.com", "sslbaidu.gshifen.com", "45.113.192.80"]
+[2m2022-05-30T15:48:54.442824Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:244   remain unmached: 16   loss: 6.56%
+[2m2022-05-30T15:48:54.454010Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 632 10.69.243.31:46179 <--> 8.8.8.8:53    ["ss1.baidu.com"] ["sslbaidu.jomodns.com", "sslbaidu.gshifen.com", "45.113.192.80"]
+[2m2022-05-30T15:48:54.454045Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:244   remain unmached: 15   loss: 6.15%
+[2m2022-05-30T15:48:54.467019Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 33360 10.69.243.31:41658 <--> 8.8.8.8:53    ["ss2.baidu.com"] ["sslbaidu.jomodns.com"]
+[2m2022-05-30T15:48:54.467056Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:244   remain unmached: 14   loss: 5.74%
+[2m2022-05-30T15:48:54.467066Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 24813 10.69.243.31:55281 <--> 8.8.8.8:53    ["ss0.baidu.com"] ["sslbaidu.jomodns.com", "113.113.67.33"]
+[2m2022-05-30T15:48:54.467073Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:244   remain unmached: 13   loss: 5.33%
+[2m2022-05-30T15:48:54.471315Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 58844 10.69.243.31:40905 <--> 8.8.8.8:53    ["ss3.baidu.com"] ["sslbaidu.jomodns.com", "sslbaidu.gshifen.com"]
+[2m2022-05-30T15:48:54.471346Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:244   remain unmached: 12   loss: 4.92%
+[2m2022-05-30T15:48:54.723944Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 37717 10.69.243.31:53433 <--> 114.114.114.114:53    ["static.zhihu.com"] ["static.zhihu.com.cdn.dnsv1.com", "1881296.sched.skalego.tdnsstic1.cn"]
+[2m2022-05-30T15:48:54.724000Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:248   remain unmached: 15   loss: 6.05%
+[2m2022-05-30T15:48:54.745885Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 35159 10.69.243.31:45200 <--> 114.114.114.114:53    ["static.zhihu.com"] ["static.zhihu.com.cdn.dnsv1.com", "1881296.sched.skalego.tdnsstic1.cn", "121.12.123.218", "14.215.167.199", "222.218.189.68", "113.96.83.109", "121.32.249.172", "222.218.189.206", "121.32.249.233", "112.67.251.106", "222.218.81.106", "219.135.59.171", "121.12.123.204"]
+[2m2022-05-30T15:48:54.745919Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:248   remain unmached: 14   loss: 5.65%
+[2m2022-05-30T15:48:54.772877Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 35159 10.69.243.31:48719 <--> 8.8.8.8:53    ["static.zhihu.com"] ["static.zhihu.com.cdn.dnsv1.com", "static.zhihu.com.qdownload.sched.ovscdns.com", "203.205.137.52", "119.28.164.206"]
+[2m2022-05-30T15:48:54.772896Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:248   remain unmached: 13   loss: 5.24%
+[2m2022-05-30T15:48:55.977037Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 8080 10.69.243.31:45463 <--> 114.114.114.114:53    ["pic3.zhimg.com"] ["pic3.zhimg.com.a.bdydns.com", "opencdnzhihustatic.jomodns.com", "240e:c3:4000:4::dca9:9829"]
+[2m2022-05-30T15:48:55.977055Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:256   remain unmached: 20   loss: 7.81%
+[2m2022-05-30T15:48:55.981309Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 43063 10.69.243.31:58061 <--> 114.114.114.114:53    ["pic3.zhimg.com"] ["pic3.zhimg.com.a.bdydns.com", "opencdnzhihustatic.jomodns.com", "175.6.243.41"]
+[2m2022-05-30T15:48:55.981332Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:256   remain unmached: 19   loss: 7.42%
+[2m2022-05-30T15:48:55.983470Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 44027 10.69.243.31:54100 <--> 114.114.114.114:53    ["pica.zhimg.com"] ["pica.zhimg.com.download.ks-cdn.com", "k122-pk.gslb.ksyuncdn.com", "240e:95c:3006:3::1", "240e:93d:1000:e::6", "240e:93c:210:3::6"]
+[2m2022-05-30T15:48:55.983488Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:256   remain unmached: 18   loss: 7.03%
+[2m2022-05-30T15:48:56.010954Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 12085 10.69.243.31:49983 <--> 114.114.114.114:53    ["pica.zhimg.com"] ["pica.zhimg.com.download.ks-cdn.com", "k122-pk.gslb.ksyuncdn.com", "113.219.226.1"]
+[2m2022-05-30T15:48:56.010980Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:256   remain unmached: 17   loss: 6.64%
+[2m2022-05-30T15:48:56.112949Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 43063 10.69.243.31:54309 <--> 8.8.8.8:53    ["pic3.zhimg.com"] ["pic3.zhimg.com.cdn.dnsv1.com", "pic3.zhimg.com.qdownload.sched.ovscdns.com", "119.28.164.206", "203.205.137.52"]
+[2m2022-05-30T15:48:56.112970Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:260   remain unmached: 20   loss: 7.69%
+[2m2022-05-30T15:48:56.113084Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 44027 10.69.243.31:56499 <--> 8.8.8.8:53    ["pica.zhimg.com"] ["pica.zhimg.com.cdn.dnsv1.com", "2086071.p23.tc.cdntip.com"]
+[2m2022-05-30T15:48:56.113095Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:260   remain unmached: 19   loss: 7.31%
+[2m2022-05-30T15:48:56.113103Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 8080 10.69.243.31:56448 <--> 8.8.8.8:53    ["pic3.zhimg.com"] ["pic3.zhimg.com.a.bdydns.com", "opencdnzhihustatic.jomodns.com"]
+[2m2022-05-30T15:48:56.113109Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:260   remain unmached: 18   loss: 6.92%
+[2m2022-05-30T15:48:56.121325Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 12085 10.69.243.31:37171 <--> 8.8.8.8:53    ["pica.zhimg.com"] ["pica.zhimg.com.download.ks-cdn.com", "k122-pk.gslb.ksyuncdn.com", "113.219.226.1"]
+[2m2022-05-30T15:48:56.121348Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:260   remain unmached: 17   loss: 6.54%
+[2m2022-05-30T15:48:56.139452Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 40337 10.69.243.31:39027 <--> 114.114.114.114:53    ["pic4.zhimg.com"] ["pic4.zhimg.com.a.bdydns.com", "opencdnzhihustatic.jomodns.com", "175.6.243.41"]
+[2m2022-05-30T15:48:56.139492Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:264   remain unmached: 20   loss: 7.58%
+[2m2022-05-30T15:48:56.140630Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 43836 10.69.243.31:39434 <--> 114.114.114.114:53    ["pic4.zhimg.com"] ["pic4.zhimg.com.a.bdydns.com", "opencdnzhihustatic.jomodns.com", "240e:c3:4000:4::dca9:9829"]
+[2m2022-05-30T15:48:56.140666Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:264   remain unmached: 19   loss: 7.20%
+[2m2022-05-30T15:48:56.148033Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 35410 10.69.243.31:55835 <--> 114.114.114.114:53    ["pic1.zhimg.com"] ["pic1.zhimg.com.w.alikunlun.com", "175.6.50.226", "175.6.50.224", "175.6.50.228", "175.6.50.227", "175.6.50.230", "175.6.50.225", "175.6.50.231", "175.6.50.229"]
+[2m2022-05-30T15:48:56.148049Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:264   remain unmached: 18   loss: 6.82%
+[2m2022-05-30T15:48:56.173125Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 23896 10.69.243.31:35808 <--> 114.114.114.114:53    ["pic1.zhimg.com"] ["pic1.zhimg.com.w.alikunlun.com", "240e:c2:1800:3c:3::3fd", "240e:c2:1800:3c:3::3fe"]
+[2m2022-05-30T15:48:56.173145Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:264   remain unmached: 17   loss: 6.44%
+[2m2022-05-30T15:48:56.180705Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 40337 10.69.243.31:48656 <--> 8.8.8.8:53    ["pic4.zhimg.com"] ["pic4.zhimg.com.cdn.dnsv1.com", "pic4.zhimg.com.qdownload.sched.ovscdns.com", "119.28.164.206", "203.205.137.52"]
+[2m2022-05-30T15:48:56.180723Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:264   remain unmached: 16   loss: 6.06%
+[2m2022-05-30T15:48:56.202290Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 35410 10.69.243.31:44216 <--> 8.8.8.8:53    ["pic1.zhimg.com"] ["pic1.zhimg.com.w.alikunlun.com", "175.6.50.226", "175.6.50.230", "175.6.50.224", "175.6.50.228", "175.6.50.227", "175.6.50.231", "175.6.50.225", "175.6.50.229"]
+[2m2022-05-30T15:48:56.202307Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:264   remain unmached: 15   loss: 5.68%
+[2m2022-05-30T15:48:56.215229Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 43836 10.69.243.31:52453 <--> 8.8.8.8:53    ["pic4.zhimg.com"] ["pic4.zhimg.com.cdn.dnsv1.com", "pic4.zhimg.com.qdownload.sched.ovscdns.com"]
+[2m2022-05-30T15:48:56.215246Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:264   remain unmached: 14   loss: 5.30%
+[2m2022-05-30T15:48:56.276887Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 23896 10.69.243.31:41853 <--> 8.8.8.8:53    ["pic1.zhimg.com"] ["pic1.zhimg.com.w.alikunlun.com", "240e:c2:1800:3c:3::3fd", "240e:c2:1800:3c:3::3fe"]
+[2m2022-05-30T15:48:56.276908Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:264   remain unmached: 13   loss: 4.92%
+[2m2022-05-30T15:48:56.400859Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 10740 10.69.243.31:54850 <--> 114.114.114.114:53    ["mqtt-web.zhihu.com"] ["mqtt-web.zhihu.com.dsa.dnsv1.com", "2076077.sched.d0.tdnsdp1.cn", "2076077.sched.d0.tdnsdp1.cn.cjt.cdn.chinaidcnet.com", "113.219.165.56", "113.219.165.55", "113.219.165.54", "113.219.165.53"]
+[2m2022-05-30T15:48:56.400906Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:268   remain unmached: 16   loss: 5.97%
+[2m2022-05-30T15:48:56.400927Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 54113 10.69.243.31:48357 <--> 114.114.114.114:53    ["mqtt-web.zhihu.com"] ["mqtt-web.zhihu.com.dsa.dnsv1.com", "2076077.sched.d0.tdnsdp1.cn"]
+[2m2022-05-30T15:48:56.400939Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:268   remain unmached: 15   loss: 5.60%
+[2m2022-05-30T15:48:56.411546Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 10740 10.69.243.31:40965 <--> 8.8.8.8:53    ["mqtt-web.zhihu.com"] ["mqtt-web.zhihu.com.dsa.dnsv1.com", "j4jddc99.e0.sched.ovscdns.com", "203.205.250.113", "203.205.250.111"]
+[2m2022-05-30T15:48:56.411573Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:268   remain unmached: 14   loss: 5.22%
+[2m2022-05-30T15:48:56.478946Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 54113 10.69.243.31:53293 <--> 8.8.8.8:53    ["mqtt-web.zhihu.com"] ["mqtt-web.zhihu.com.dsa.dnsv1.com", "2076077.sched.d0.tdnsdp1.cn"]
+[2m2022-05-30T15:48:56.478965Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:268   remain unmached: 13   loss: 4.85%
+[2m2022-05-30T15:48:58.306406Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 29519 10.69.243.31:51947 <--> 114.114.114.114:53    ["pic2.zhimg.com"] ["pic2.zhimg.com.a.bdydns.com", "opencdnzhihustatic.jomodns.com", "175.6.243.41"]
+[2m2022-05-30T15:48:58.306423Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:272   remain unmached: 16   loss: 5.88%
+[2m2022-05-30T15:48:58.307491Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 56365 10.69.243.31:52394 <--> 114.114.114.114:53    ["pic2.zhimg.com"] ["pic2.zhimg.com.a.bdydns.com", "opencdnzhihustatic.jomodns.com", "240e:c3:4000:4::dca9:9829"]
+[2m2022-05-30T15:48:58.307505Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:272   remain unmached: 15   loss: 5.51%
+[2m2022-05-30T15:48:58.350000Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 56365 10.69.243.31:50095 <--> 8.8.8.8:53    ["pic2.zhimg.com"] ["pic2.zhimg.com.cdn.dnsv1.com", "pic2.zhimg.com.qdownload.sched.ovscdns.com"]
+[2m2022-05-30T15:48:58.350021Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:272   remain unmached: 14   loss: 5.15%
+[2m2022-05-30T15:48:58.543742Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 29519 10.69.243.31:53884 <--> 8.8.8.8:53    ["pic2.zhimg.com"] ["pic2.zhimg.com.cdn.dnsv1.com", "39697.sched.skalego.tdnsstic1.cn", "112.67.251.106", "14.215.167.199", "219.135.59.171", "121.32.249.233", "222.218.81.106", "121.12.123.204", "113.96.83.109", "222.218.189.206", "121.12.123.218", "222.218.189.68", "121.32.249.172"]
+[2m2022-05-30T15:48:58.543768Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:272   remain unmached: 13   loss: 4.78%
+[2m2022-05-30T15:49:12.543928Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 10952 10.69.243.31:42431 <--> 114.114.114.114:53    ["api.zhihu.com"] ["api.zhihu.com.dsa.dnsv1.com", "1595096.sched.d0-dk.tdnsdp1.cn", "240e:c3:4000:8:38::", "240e:c3:4000:8:34::", "240e:c3:4000:8:36::"]
+[2m2022-05-30T15:49:12.543957Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:276   remain unmached: 16   loss: 5.80%
+[2m2022-05-30T15:49:12.605564Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 54195 10.69.243.31:34684 <--> 114.114.114.114:53    ["api.zhihu.com"] ["api.zhihu.com.dsa.dnsv1.com", "1595096.sched.d0-dk.tdnsdp1.cn", "1595096.sched.d0-dk.tdnsdp1.cn.cjt.cdn.chinaidcnet.com", "113.219.165.53", "113.219.165.54", "113.219.165.56", "113.219.165.55"]
+[2m2022-05-30T15:49:12.605597Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:276   remain unmached: 15   loss: 5.43%
+[2m2022-05-30T15:49:12.605609Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 54195 10.69.243.31:44061 <--> 8.8.8.8:53    ["api.zhihu.com"] ["api.zhihu.com.dsa.dnsv1.com", "1442233.e0.sched.ovscdns.com", "203.205.250.113", "203.205.250.111"]
+[2m2022-05-30T15:49:12.605614Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:276   remain unmached: 14   loss: 5.07%
+[2m2022-05-30T15:49:12.647939Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 10952 10.69.243.31:49233 <--> 8.8.8.8:53    ["api.zhihu.com"] ["api.zhihu.com.dsa.dnsv1.com", "1595096.sched.d0-dk.tdnsdp1.cn", "240e:c3:4000:8:36::", "240e:c3:4000:8:34::", "240e:c3:4000:8:38::"]
+[2m2022-05-30T15:49:12.647964Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:276   remain unmached: 13   loss: 4.71%
+[2m2022-05-30T15:49:13.209055Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 23335 10.69.243.31:51847 <--> 114.114.114.114:53    ["pay.zhihu.com"] ["gslb-gf-online.zhihu.com", "gslb-pek01.zhihu.com", "e4094fc1d98c915a.ksyunad.com", "103.41.167.236", "103.41.167.226", "103.41.167.234", "103.41.167.235"]
+[2m2022-05-30T15:49:13.209087Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:280   remain unmached: 16   loss: 5.71%
+[2m2022-05-30T15:49:13.209102Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 25156 10.69.243.31:57954 <--> 114.114.114.114:53    ["pay.zhihu.com"] ["gslb-gf-online.zhihu.com", "gslb-pek01.zhihu.com", "e4094fc1d98c915a.ksyunad.com"]
+[2m2022-05-30T15:49:13.209111Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:280   remain unmached: 15   loss: 5.36%
+[2m2022-05-30T15:49:13.649197Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 1503 10.69.243.31:44352 <--> 114.114.114.114:53    ["zhstatic.zhihu.com"] ["zhstatic.zhihu.com.w.alikunlun.net"]
+[2m2022-05-30T15:49:13.649239Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:284   remain unmached: 18   loss: 6.34%
+[2m2022-05-30T15:49:13.652887Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 52165 10.69.243.31:52831 <--> 114.114.114.114:53    ["zhstatic.zhihu.com"] ["zhstatic.zhihu.com.w.alikunlun.net", "27.22.56.244", "27.22.56.240", "27.22.56.239", "27.22.56.241", "27.22.56.248", "27.22.56.242", "27.22.56.243", "27.22.56.238"]
+[2m2022-05-30T15:49:13.652912Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:284   remain unmached: 17   loss: 5.99%
+[2m2022-05-30T15:49:13.702556Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 52165 10.69.243.31:51864 <--> 8.8.8.8:53    ["zhstatic.zhihu.com"] ["zhstatic.zhihu.com.w.alikunlun.net", "27.22.56.240", "27.22.56.243", "27.22.56.244", "27.22.56.238", "27.22.56.248", "27.22.56.239", "27.22.56.241", "27.22.56.242"]
+[2m2022-05-30T15:49:13.702584Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:284   remain unmached: 16   loss: 5.63%
+[2m2022-05-30T15:49:13.866778Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 1503 10.69.243.31:39851 <--> 8.8.8.8:53    ["zhstatic.zhihu.com"] ["zhstatic.zhihu.com.w.alikunlun.net"]
+[2m2022-05-30T15:49:13.866799Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:284   remain unmached: 15   loss: 5.28%
+[2m2022-05-30T15:49:36.381549Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 0 224.0.0.251:5353 <--> 10.69.243.31:5353    ["_spotify-connect._tcp.local"] []
+[2m2022-05-30T15:49:36.381609Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:284   remain unmached: 14   loss: 4.93%
+[2m2022-05-30T15:50:16.010878Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 38283 10.69.243.31:55629 <--> 114.114.114.114:53    ["pica.zhimg.com"] ["pica.zhimg.com.download.ks-cdn.com", "k122-pk.gslb.ksyuncdn.com", "240e:93c:210:3::6", "240e:93d:1000:e::6", "240e:95c:3006:3::1"]
+[2m2022-05-30T15:50:16.010899Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:286   remain unmached: 15   loss: 5.24%
+[2m2022-05-30T15:50:16.034167Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 38283 10.69.243.31:37225 <--> 8.8.8.8:53    ["pica.zhimg.com"] ["pica.zhimg.com.cdn.dnsv1.com", "pica.zhimg.com.qdownload.sched.ovscdns.com"]
+[2m2022-05-30T15:50:16.034192Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:286   remain unmached: 14   loss: 4.90%
+[2m2022-05-30T15:50:45.224016Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 39511 10.69.243.31:48954 <--> 114.114.114.114:53    ["mqtt-web.zhihu.com"] ["mqtt-web.zhihu.com.dsa.dnsv1.com", "2076077.sched.d0.tdnsdp1.cn", "2076077.sched.d0.tdnsdp1.cn.cjt.cdn.chinaidcnet.com"]
+[2m2022-05-30T15:50:45.224047Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:288   remain unmached: 15   loss: 5.21%
+[2m2022-05-30T15:50:53.506925Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 48831 10.69.243.31:33923 <--> 114.114.114.114:53    ["www.baidu.com"] ["www.a.shifen.com"]
+[2m2022-05-30T15:50:53.506947Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:290   remain unmached: 16   loss: 5.52%
+[2m2022-05-30T15:50:53.562620Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 48831 10.69.243.31:38336 <--> 8.8.8.8:53    ["www.baidu.com"] ["www.a.shifen.com", "www.wshifen.com"]
+[2m2022-05-30T15:50:53.562639Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:290   remain unmached: 15   loss: 5.17%
+[2m2022-05-30T15:50:53.717302Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 29614 10.69.243.31:60048 <--> 114.114.114.114:53    ["news.hbtv.com.cn"] ["news.hbtv.com.cn.w.kunlungr.com", "175.6.49.1", "175.6.49.224", "175.6.49.231", "175.6.49.229", "175.6.49.230", "175.6.49.228", "175.6.49.225", "175.6.49.226"]
+[2m2022-05-30T15:50:53.717320Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:294   remain unmached: 18   loss: 6.12%
+[2m2022-05-30T15:50:53.723686Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 194 10.69.243.31:44897 <--> 114.114.114.114:53    ["news.hbtv.com.cn"] ["news.hbtv.com.cn.w.kunlungr.com", "240e:93d:1:7:3::3f5", "240e:97f:2000:100:3::3fd", "240e:97c:20:300:715::3fe", "240e:97c:20:300:715::3fd", "240e:93d:1:7:3::3f6", "240e:97f:2000:100:3::3fe"]
+[2m2022-05-30T15:50:53.723718Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:294   remain unmached: 17   loss: 5.78%
+[2m2022-05-30T15:50:53.799940Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 194 10.69.243.31:52403 <--> 8.8.8.8:53    ["news.hbtv.com.cn"] ["news.hbtv.com.cn.w.kunlungr.com", "240e:97d:2004:a00:3::3fe", "240e:93d:1:7:3::3f6", "240e:97c:20:300:715::3fe", "240e:97c:20:300:715::3fd", "240e:93d:1:7:3::3f5", "240e:97d:2004:a00:3::3fd"]
+[2m2022-05-30T15:50:53.799966Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:294   remain unmached: 16   loss: 5.44%
+[2m2022-05-30T15:50:53.843729Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 29614 10.69.243.31:44361 <--> 8.8.8.8:53    ["news.hbtv.com.cn"] ["news.hbtv.com.cn.w.kunlungr.com", "36.99.20.209", "27.159.68.243", "113.16.214.227", "115.220.8.229", "175.6.49.225", "14.215.57.231", "115.220.8.230", "115.220.8.227", "113.16.214.222", "113.16.214.224", "113.16.214.228", "113.16.214.229"]
+[2m2022-05-30T15:50:53.843748Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:294   remain unmached: 15   loss: 5.10%
+[2m2022-05-30T15:50:54.719176Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 14454 10.69.243.31:52212 <--> 114.114.114.114:53    ["res.cjyun.org"] ["res.cjyun.org.w.kunlungr.com", "240e:96a:e000:2:3::3fd", "240e:96a:e000:2:3::3fe"]
+[2m2022-05-30T15:50:54.719193Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:298   remain unmached: 18   loss: 6.04%
+[2m2022-05-30T15:50:54.741245Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 57782 10.69.243.31:40686 <--> 114.114.114.114:53    ["res.cjyun.org"] ["res.cjyun.org.w.kunlungr.com", "175.6.241.244", "175.6.241.248", "175.6.241.250", "175.6.237.98", "175.6.241.249", "175.6.237.70", "175.6.241.245", "175.6.241.246"]
+[2m2022-05-30T15:50:54.741265Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:298   remain unmached: 17   loss: 5.70%
+[2m2022-05-30T15:50:54.757978Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 57782 10.69.243.31:46422 <--> 8.8.8.8:53    ["res.cjyun.org"] ["res.cjyun.org.w.kunlungr.com", "175.6.241.248", "175.6.241.250", "175.6.241.244", "175.6.237.98", "175.6.241.245", "175.6.237.70", "175.6.241.246", "175.6.241.249"]
+[2m2022-05-30T15:50:54.758020Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:298   remain unmached: 16   loss: 5.37%
+[2m2022-05-30T15:50:54.776053Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 14454 10.69.243.31:40909 <--> 8.8.8.8:53    ["res.cjyun.org"] ["res.cjyun.org.w.kunlungr.com", "240e:96a:e000:2:3::3fd", "240e:96a:e000:2:3::3fe"]
+[2m2022-05-30T15:50:54.776073Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:298   remain unmached: 15   loss: 5.03%
+[2m2022-05-30T15:50:55.109269Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 8483 10.69.243.31:44418 <--> 114.114.114.114:53    ["img.cjyun.org"] ["img.cjyun.org.w.kunlungr.com", "113.240.96.103", "113.240.96.100", "113.240.96.98", "113.240.96.101", "113.240.96.104", "113.240.96.102", "113.240.96.99", "113.240.96.105"]
+[2m2022-05-30T15:50:55.109293Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:306   remain unmached: 22   loss: 7.19%
+[2m2022-05-30T15:50:55.242300Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 43764 10.69.243.31:50211 <--> 114.114.114.114:53    ["wenming.cjyun.org"] ["wenming.cjyun.org.w.kunluncan.com"]
+[2m2022-05-30T15:50:55.242331Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:320   remain unmached: 35   loss: 10.94%
+[2m2022-05-30T15:50:55.242387Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 8483 10.69.243.31:49891 <--> 8.8.8.8:53    ["img.cjyun.org"] ["img.cjyun.org.w.kunlungr.com", "113.240.96.101", "113.240.96.103", "113.240.96.102", "113.240.96.99", "113.240.96.104", "113.240.96.105", "113.240.96.98", "113.240.96.100"]
+[2m2022-05-30T15:50:55.242402Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:320   remain unmached: 34   loss: 10.62%
+[2m2022-05-30T15:50:55.243407Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 27631 10.69.243.31:51123 <--> 114.114.114.114:53    ["wenming.cjyun.org"] ["wenming.cjyun.org.w.kunluncan.com", "175.6.29.227", "175.6.29.228", "175.6.29.229", "175.6.29.232", "175.6.29.230", "175.6.29.226", "175.6.29.233", "175.6.29.231"]
+[2m2022-05-30T15:50:55.243426Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:320   remain unmached: 33   loss: 10.31%
+[2m2022-05-30T15:50:55.243438Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 30895 10.69.243.31:40662 <--> 8.8.8.8:53    ["img.cjyun.org"] ["img.cjyun.org.w.kunlungr.com", "240e:cd:ff00:107:3::3fe", "240e:cd:ff00:107:3::3fd"]
+[2m2022-05-30T15:50:55.243446Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:320   remain unmached: 32   loss: 10.00%
+[2m2022-05-30T15:50:55.243455Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 30895 10.69.243.31:34099 <--> 114.114.114.114:53    ["img.cjyun.org"] ["img.cjyun.org.w.kunlungr.com", "240e:cd:ff00:107:3::3fd", "240e:cd:ff00:107:3::3fe"]
+[2m2022-05-30T15:50:55.243463Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:320   remain unmached: 31   loss: 9.69%
+[2m2022-05-30T15:50:55.261018Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 39483 10.69.243.31:37978 <--> 114.114.114.114:53    ["www.caiyunapp.com"] ["139.129.106.176"]
+[2m2022-05-30T15:50:55.261043Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:320   remain unmached: 30   loss: 9.38%
+[2m2022-05-30T15:50:55.264683Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 21307 10.69.243.31:46806 <--> 114.114.114.114:53    ["caiyunapp.com"] ["139.129.106.176"]
+[2m2022-05-30T15:50:55.264724Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:320   remain unmached: 29   loss: 9.06%
+[2m2022-05-30T15:50:55.266598Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 43764 10.69.243.31:35699 <--> 8.8.8.8:53    ["wenming.cjyun.org"] ["wenming.cjyun.org.w.kunluncan.com"]
+[2m2022-05-30T15:50:55.266630Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:320   remain unmached: 28   loss: 8.75%
+[2m2022-05-30T15:50:55.266643Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 2333 10.69.243.31:54944 <--> 114.114.114.114:53    ["bdimg.share.baidu.com"] ["share.jomodns.com", "220.169.152.48"]
+[2m2022-05-30T15:50:55.266652Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:320   remain unmached: 27   loss: 8.44%
+[2m2022-05-30T15:50:55.274564Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 27631 10.69.243.31:41359 <--> 8.8.8.8:53    ["wenming.cjyun.org"] ["wenming.cjyun.org.w.kunluncan.com", "175.6.29.231", "175.6.29.232", "175.6.29.233", "175.6.29.226", "175.6.29.227", "175.6.29.228", "175.6.29.229", "175.6.29.230"]
+[2m2022-05-30T15:50:55.274602Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:320   remain unmached: 26   loss: 8.12%
+[2m2022-05-30T15:50:55.285642Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 60909 10.69.243.31:43447 <--> 114.114.114.114:53    ["caiyunapp.com"] []
+[2m2022-05-30T15:50:55.285692Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:320   remain unmached: 25   loss: 7.81%
+[2m2022-05-30T15:50:55.288683Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 7646 10.69.243.31:48983 <--> 114.114.114.114:53    ["bdimg.share.baidu.com"] ["share.jomodns.com"]
+[2m2022-05-30T15:50:55.288731Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:320   remain unmached: 24   loss: 7.50%
+[2m2022-05-30T15:50:55.295789Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 3268 10.69.243.31:57188 <--> 114.114.114.114:53    ["tj.cjyun.org"] ["rirtj98mberjwexcfrgtjoesdgnh1okf.aliyundunwaf.com", "47.110.172.106"]
+[2m2022-05-30T15:50:55.295816Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:320   remain unmached: 23   loss: 7.19%
+[2m2022-05-30T15:50:55.336323Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 21307 10.69.243.31:48314 <--> 8.8.8.8:53    ["caiyunapp.com"] ["139.129.106.176"]
+[2m2022-05-30T15:50:55.336343Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:320   remain unmached: 22   loss: 6.88%
+[2m2022-05-30T15:50:55.338525Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 50733 10.69.243.31:55429 <--> 8.8.8.8:53    ["tj.cjyun.org"] ["rirtj98mberjwexcfrgtjoesdgnh1okf.aliyundunwaf.com"]
+[2m2022-05-30T15:50:55.338541Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:320   remain unmached: 21   loss: 6.56%
+[2m2022-05-30T15:50:55.338546Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 39483 10.69.243.31:46094 <--> 8.8.8.8:53    ["www.caiyunapp.com"] ["139.129.106.176"]
+[2m2022-05-30T15:50:55.338551Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:320   remain unmached: 20   loss: 6.25%
+[2m2022-05-30T15:50:55.339923Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 7646 10.69.243.31:39752 <--> 8.8.8.8:53    ["bdimg.share.baidu.com"] ["share.jomodns.com"]
+[2m2022-05-30T15:50:55.339940Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:320   remain unmached: 19   loss: 5.94%
+[2m2022-05-30T15:50:55.426391Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 50733 10.69.243.31:51730 <--> 114.114.114.114:53    ["tj.cjyun.org"] ["rirtj98mberjwexcfrgtjoesdgnh1okf.aliyundunwaf.com"]
+[2m2022-05-30T15:50:55.426452Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:320   remain unmached: 18   loss: 5.62%
+[2m2022-05-30T15:50:55.430724Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 60909 10.69.243.31:45893 <--> 8.8.8.8:53    ["caiyunapp.com"] []
+[2m2022-05-30T15:50:55.430746Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:320   remain unmached: 17   loss: 5.31%
+[2m2022-05-30T15:50:55.432874Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 3268 10.69.243.31:54412 <--> 8.8.8.8:53    ["tj.cjyun.org"] ["rirtj98mberjwexcfrgtjoesdgnh1okf.aliyundunwaf.com", "47.110.172.106"]
+[2m2022-05-30T15:50:55.432893Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:320   remain unmached: 16   loss: 5.00%
+[2m2022-05-30T15:50:55.444255Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 2333 10.69.243.31:50248 <--> 8.8.8.8:53    ["bdimg.share.baidu.com"] ["share.jomodns.com", "share.n.shifen.com", "180.101.212.103"]
+[2m2022-05-30T15:50:55.444278Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:320   remain unmached: 15   loss: 4.69%
+[2m2022-05-30T15:51:31.960369Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 54525 10.69.243.31:54850 <--> 114.114.114.114:53    ["hectorstatic.baidu.com"] ["hectorstatic.baidu.com.a.bdydns.com", "opencdnbd.jomodns.com", "1.81.3.38", "119.100.50.38"]
+[2m2022-05-30T15:51:31.960387Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:322   remain unmached: 16   loss: 4.97%
+[2m2022-05-30T15:51:32.113356Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 54525 10.69.243.31:37733 <--> 8.8.8.8:53    ["hectorstatic.baidu.com"] ["hectorstatic.baidu.com.a.bdydns.com", "opencdnbd.jomodns.com", "113.105.172.38"]
+[2m2022-05-30T15:51:32.113382Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:322   remain unmached: 15   loss: 4.66%
+[2m2022-05-30T15:51:32.533605Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 10599 10.69.243.31:41905 <--> 114.114.114.114:53    ["ug.baidu.com"] ["eopa.n.shifen.com", "240e:ff:e020:418:0:ff:b04a:168d"]
+[2m2022-05-30T15:51:32.533645Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:324   remain unmached: 16   loss: 4.94%
+[2m2022-05-30T15:51:32.617163Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 10599 10.69.243.31:43366 <--> 8.8.8.8:53    ["ug.baidu.com"] ["eopa.n.shifen.com", "240e:ff:e020:418:0:ff:b04a:168d"]
+[2m2022-05-30T15:51:32.617181Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:324   remain unmached: 15   loss: 4.63%
+[2m2022-05-30T15:51:34.599694Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 11951 10.69.243.31:51986 <--> 114.114.114.114:53    ["sp3.baidu.com"] ["www.a.shifen.com"]
+[2m2022-05-30T15:51:34.599713Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:328   remain unmached: 18   loss: 5.49%
+[2m2022-05-30T15:51:34.604050Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 7383 10.69.243.31:55256 <--> 114.114.114.114:53    ["sp3.baidu.com"] ["www.a.shifen.com", "14.215.177.38", "14.215.177.39"]
+[2m2022-05-30T15:51:34.604067Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:328   remain unmached: 17   loss: 5.18%
+[2m2022-05-30T15:51:34.701467Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 11951 10.69.243.31:45687 <--> 8.8.8.8:53    ["sp3.baidu.com"] ["www.a.shifen.com"]
+[2m2022-05-30T15:51:34.701500Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:328   remain unmached: 16   loss: 4.88%
+[2m2022-05-30T15:51:34.756171Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 7383 10.69.243.31:37815 <--> 8.8.8.8:53    ["sp3.baidu.com"] ["www.a.shifen.com", "14.215.177.38", "14.215.177.39"]
+[2m2022-05-30T15:51:34.756191Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:328   remain unmached: 15   loss: 4.57%
+[2m2022-05-30T15:51:39.785887Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 45999 10.69.243.31:50295 <--> 114.114.114.114:53    ["haokan.baidu.com"] ["nvideo.n.shifen.com", "180.97.36.22"]
+[2m2022-05-30T15:51:39.785906Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:331   remain unmached: 17   loss: 5.14%
+[2m2022-05-30T15:51:39.852702Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 45999 10.69.243.31:52295 <--> 8.8.8.8:53    ["haokan.baidu.com"] ["nvideo.n.shifen.com", "180.97.36.22"]
+[2m2022-05-30T15:51:39.852724Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:331   remain unmached: 16   loss: 4.83%
+[2m2022-05-30T15:51:41.409912Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 38911 10.69.243.31:38934 <--> 114.114.114.114:53    ["hk.bdstatic.com"] ["hk.bdstatic.com.a.bdydns.com", "opencdnbd.jomodns.com", "240e:ff:d190:601::7160:b226"]
+[2m2022-05-30T15:51:41.409937Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:333   remain unmached: 17   loss: 5.11%
+[2m2022-05-30T15:51:41.681488Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 38911 10.69.243.31:51315 <--> 8.8.8.8:53    ["hk.bdstatic.com"] ["hk.bdstatic.com.a.bdydns.com", "opencdnbd.jomodns.com", "240e:ff:d190:601::7160:b226"]
+[2m2022-05-30T15:51:41.681511Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:333   remain unmached: 16   loss: 4.80%
+[2m2022-05-30T15:51:42.142394Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 62507 10.69.243.31:45456 <--> 114.114.114.114:53    ["videopic.bdstatic.com"] ["videopic.bdstatic.com.a.bdydns.com", "opencdnv6.jomodns.com", "240e:95d:c02:601::6faa:1a23", "240e:978:6402::b461:c623"]
+[2m2022-05-30T15:51:42.142422Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:337   remain unmached: 19   loss: 5.64%
+[2m2022-05-30T15:51:42.142434Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 59352 10.69.243.31:53044 <--> 114.114.114.114:53    ["videopic.bdstatic.com"] ["videopic.bdstatic.com.a.bdydns.com", "opencdnv6.jomodns.com", "111.174.9.35"]
+[2m2022-05-30T15:51:42.142442Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:337   remain unmached: 18   loss: 5.34%
+[2m2022-05-30T15:51:42.276000Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 62507 10.69.243.31:43900 <--> 8.8.8.8:53    ["videopic.bdstatic.com"] ["videopic.bdstatic.com.a.bdydns.com", "opencdnv6.jomodns.com", "240e:b1:a810:1800::6a75:d823"]
+[2m2022-05-30T15:51:42.276020Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:337   remain unmached: 17   loss: 5.04%
+[2m2022-05-30T15:51:42.455491Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 59352 10.69.243.31:40423 <--> 8.8.8.8:53    ["videopic.bdstatic.com"] ["videopic.bdstatic.com.a.bdydns.com", "opencdnv6.jomodns.com", "111.174.9.35"]
+[2m2022-05-30T15:51:42.455546Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:337   remain unmached: 16   loss: 4.75%
+[2m2022-05-30T15:51:42.943691Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 56369 10.69.243.31:60280 <--> 114.114.114.114:53    ["vd2.bdstatic.com"] ["feedvd2.jomodns.com", "vd1.bdstatic.com.vod.galileo.jcloud-cdn.com", "baidu-bfp-v6.jdcloudedge.com", "240e:93c:210:6:8000::20", "240e:938:a05:1:8000::81", "240e:969:5000:1:8000::5", "240e:938:a05:20:8000::5", "240e:978:1c60:0:8000::5", "240e:95d:c02:a:8000::129", "240e:914:14:a:8000::5", "240e:93c:210:6:8000::5", "240e:95d:1010:5:8000::5", "240e:983:1e00:2:8000::5"]
+[2m2022-05-30T15:51:42.943715Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:341   remain unmached: 19   loss: 5.57%
+[2m2022-05-30T15:51:42.949126Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 40450 10.69.243.31:41829 <--> 114.114.114.114:53    ["vd2.bdstatic.com"] ["feedvd2.jomodns.com", "vd1.bdstatic.com.vod.galileo.jcloud-cdn.com", "baidu-bfp-v6.jdcloudedge.com", "1.194.227.5", "111.170.27.129", "14.29.83.5", "220.168.132.5", "116.207.187.5", "1.194.227.20", "119.0.67.5", "121.226.246.5", "119.0.68.81", "124.225.199.5"]
+[2m2022-05-30T15:51:42.949152Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:341   remain unmached: 18   loss: 5.28%
+[2m2022-05-30T15:51:42.980950Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 56369 10.69.243.31:47617 <--> 8.8.8.8:53    ["vd2.bdstatic.com"] ["feedvd2.jomodns.com", "feedvideo.gshifen.com"]
+[2m2022-05-30T15:51:42.980969Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:341   remain unmached: 17   loss: 4.99%
+[2m2022-05-30T15:51:43.000661Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 40450 10.69.243.31:46102 <--> 8.8.8.8:53    ["vd2.bdstatic.com"] ["feedvd2.jomodns.com", "feedvideo.gshifen.com", "45.113.192.88"]
+[2m2022-05-30T15:51:43.000683Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:341   remain unmached: 16   loss: 4.69%
+[2m2022-05-30T15:51:48.558701Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 43906 10.69.243.31:38212 <--> 114.114.114.114:53    ["www.gstatic.com"] []
+[2m2022-05-30T15:51:48.558723Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:345   remain unmached: 19   loss: 5.51%
+[2m2022-05-30T15:51:48.582791Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 43772 10.69.243.31:34885 <--> 114.114.114.114:53    ["www.gstatic.com"] ["203.208.39.226"]
+[2m2022-05-30T15:51:48.582816Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:345   remain unmached: 18   loss: 5.22%
+[2m2022-05-30T15:51:48.623444Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 43772 10.69.243.31:33342 <--> 8.8.8.8:53    ["www.gstatic.com"] ["203.208.40.34", "203.208.40.34"]
+[2m2022-05-30T15:51:48.623465Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:345   remain unmached: 17   loss: 4.93%
+[2m2022-05-30T15:52:12.331715Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 26251 10.69.243.31:35900 <--> 114.114.114.114:53    ["encrypted-tbn0.gstatic.com"] ["142.251.43.14"]
+[2m2022-05-30T15:52:12.331736Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:349   remain unmached: 20   loss: 5.73%
+[2m2022-05-30T15:52:12.358424Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 2973 10.69.243.31:54164 <--> 8.8.8.8:53    ["encrypted-tbn0.gstatic.com"] []
+[2m2022-05-30T15:52:12.358447Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:349   remain unmached: 19   loss: 5.44%
+[2m2022-05-30T15:52:12.417158Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m 2973 10.69.243.31:35219 <--> 114.114.114.114:53    ["encrypted-tbn0.gstatic.com"] []
+[2m2022-05-30T15:52:12.417177Z[0m [32m INFO[0m [2mbpf_dns[0m[2m:[0m total request:349   remain unmached: 18   loss: 5.16%
