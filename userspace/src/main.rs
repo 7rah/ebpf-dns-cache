@@ -76,8 +76,8 @@ async fn main() {
                     match_map.remove(&id);
                     let remain = match_map.len();
                     info!(
-                        "total request:{total}   remain unmached: {remain}   loss: {:.2}%",
-                        ((remain as f64) / (total as f64)) * 100f64
+                        "total: {total}   cached: {}   unmached: {remain}   loss: {:.2}%",
+                        cache_map.len(),((remain as f64) / (total as f64)) * 100f64
                     );
                 } else {
                     let questions = packet
