@@ -7,12 +7,23 @@ edition = "2021"
 
 [dependencies]
 redbpf = { version = "2.3.0", features = ["load"] }
-tokio = { version = "1.0", features = ["rt-multi-thread", "signal", "time", "io-util", "net", "sync"] }
+tokio = { version = "1.0", features = ["rt-multi-thread", "io-util", "net", "time"] }
 tracing-subscriber = "0.3"
 tracing = "0.1"
 tokio-fd = "0.3.0"
-dns-parser = "0.8.0"
+simple-dns = "0.4.6"
 libc = "0.2"
+moka-cht = "0.5"
+moka = "*"
+packet-builder = "*"
+pnet = "0.26.0"
+pnet_base = "0.26.0"
+lazy_static = "1.4.0"
+tracing-unwrap = "0.9.2"
+anyhow = "*"
+static_init = "*"
+dashmap = "5.3.4"
+
 
 [build-dependencies]
 cargo-bpf = { version="2.3.0",default-features = false, features = ["build","llvm13"] }

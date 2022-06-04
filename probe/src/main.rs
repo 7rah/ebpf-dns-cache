@@ -2,7 +2,7 @@
 #![no_main]
 
 use core::fmt::{self, Write};
-use core::mem;
+use core::{mem, slice};
 use memoffset::offset_of;
 use redbpf_probes::bindings::*;
 use redbpf_probes::socket_filter::prelude::*;
@@ -37,6 +37,5 @@ pub fn dns_queries(skb: SkBuff) -> SkBuffResult {
 
         return Ok(SkBuffAction::Ignore);
     }
-
     Ok(SkBuffAction::Ignore)
 }
