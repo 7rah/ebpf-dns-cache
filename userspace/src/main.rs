@@ -1,7 +1,4 @@
-use anyhow::Result;
 use dashmap::DashMap;
-use moka::sync::Cache;
-use moka_cht::HashMap;
 use packet_builder::payload::PayloadData;
 use packet_builder::*;
 use pnet::datalink::MacAddr;
@@ -11,25 +8,20 @@ use simple_dns::{Packet as DnsPacket, RCODE};
 use static_init::dynamic;
 use std::collections::hash_map::DefaultHasher;
 use std::hash::{Hash, Hasher};
-use std::mem::{self, MaybeUninit};
+use std::mem::{self};
 use std::net::{Ipv4Addr, SocketAddr, SocketAddrV4};
-use std::ops::Add;
-use std::os::unix::prelude::IntoRawFd;
-use std::pin::Pin;
-use std::str::FromStr;
-use std::sync::Arc;
 use std::time::Duration;
 use tokio::io::{AsyncReadExt, AsyncWriteExt};
 use tokio::time::{sleep, Instant};
 use tokio::{io, spawn};
 use tokio_fd::AsyncFd;
-use tracing::{error, info, warn, Level, trace};
+use tracing::{error, info, trace, Level};
 
 use tracing_subscriber::FmtSubscriber;
 type Domain = String;
 type Id = u16;
 
-const THRESHOLD: f64 = 0.005;
+const THRESHOLD: f64 = 0.2;
 const WAIT_TIME: Duration = Duration::from_secs(5);
 
 #[derive(Clone, Copy, Debug)]
@@ -121,42 +113,45 @@ async fn main() {
     let filter = AsyncFd::try_from(fd).unwrap();
     let (mut rx, mut tx) = io::split(filter);
 
-    CACHED_MAP.insert("6666.com".to_string(), vec!["114.114.114.114".parse().unwrap()]);
+    CACHED_MAP.insert(
+        "6666.com".to_string(),
+        vec!["114.114.114.114".parse().unwrap()],
+    );
+    /*
+        spawn(async move {
+            loop {
+                if (calc_loss() > THRESHOLD) & (MATCHING_MAP.len() > 0) {
+                    let mut keys = vec![];
 
-    spawn(async move {
-        loop {
-            if (calc_loss() > THRESHOLD) & (MATCHING_MAP.len() > 0) {
-                let mut keys = vec![];
+                    for r in MATCHING_MAP.iter() {
+                        let mut addr = r.0;
+                        let domain = &r.1[0];
+                        let id = r.key().0;
 
-                for r in MATCHING_MAP.iter() {
-                    let mut addr = r.0;
-                    let domain = &r.1[0];
-                    let id = r.key().0;
+                        mem::swap(&mut addr.saddr, &mut addr.daddr);
+                        mem::swap(&mut addr.smac, &mut addr.dmac);
 
-                    mem::swap(&mut addr.saddr, &mut addr.daddr);
-                    mem::swap(&mut addr.smac, &mut addr.dmac);
+                        if let Some(a) = CACHED_MAP.get(domain) {
+                            let ips = a.value();
 
-                    if let Some(a) = CACHED_MAP.get(domain) {
-                        let ips = a.value();
+                            info!("hit cache!   {addr:?}  {id} {domain} -> {ips:?}");
+                            let payload = skip_fail!(build_dns_reply(id, domain, ips));
+                            send_raw_udp_packet(&mut tx, &addr, &payload).await;
 
-                        info!("hit cache!   {addr:?}  {id} {domain} -> {ips:?}");
-                        let payload = skip_fail!(build_dns_reply(id, domain, ips));
-                        send_raw_udp_packet(&mut tx, &addr, &payload).await;
+                            keys.push(*r.key());
+                        }
+                    }
 
-                        keys.push(*r.key());
+                    let count = keys.iter().map(|key| MATCHING_MAP.remove(key)).count();
+                    if count > 0 {
+                        info!("release {count} matching query");
                     }
                 }
 
-                let count = keys.iter().map(|key| MATCHING_MAP.remove(key)).count();
-                if count > 0 {
-                info!("release {count} matching query");
-                }
+                sleep(Duration::from_secs_f32(0.01)).await;
             }
-
-            sleep(Duration::from_secs_f32(0.01)).await;
-        }
-    });
-
+        });
+    */
     let mut buf = [0u8; 2048];
 
     while let Ok(n) = rx.read(&mut buf).await {
@@ -186,7 +181,7 @@ async fn main() {
                 })
                 .collect();
 
-            if ips.len() == 0 {
+            if ips.is_empty() {
                 continue;
             }
 
@@ -211,6 +206,21 @@ async fn main() {
                 .map(|q| q.qname.to_string() as Domain)
                 .collect();
 
+            // test whether cache and DNS packet injection work
+            let domain = &domains[0];
+            if let Some(a) = CACHED_MAP.get(domain) {
+                let ips = a.value();
+                info!("hit chahe {domain} -> {ips:?}");
+                let payload = skip_fail!(build_dns_reply(id, domain, ips));
+
+                let mut addr = addr.clone();
+
+                mem::swap(&mut addr.saddr, &mut addr.daddr);
+                mem::swap(&mut addr.smac, &mut addr.dmac);
+
+                send_raw_udp_packet(&mut tx, &addr, &payload).await;
+            }
+
             MATCHING_MAP.insert((id, addr_hash), (addr, domains));
 
             {
@@ -219,15 +229,17 @@ async fn main() {
 
             // deal with timeout request
             spawn(async move {
-                    sleep(WAIT_TIME).await;
+                sleep(WAIT_TIME).await;
 
-                    // lock matching map when loss is bigger than threshold
-                    if calc_loss() > THRESHOLD {
-                        sleep(WAIT_TIME).await;
-                    }
-                
+                /*
+                // lock matching map when loss is bigger than threshold
+                if calc_loss() > THRESHOLD {
+                    sleep(WAIT_TIME).await;
+                }
+                */
 
                 if let Some((_, (_, domains))) = MATCHING_MAP.remove(&(id, addr_hash)) {
+                    info!("unmatched {:?}", (addr, &domains));
                     UNMATCHED.write().push((addr, domains, Instant::now()));
                 }
             });
@@ -249,8 +261,8 @@ fn log_status() {
 fn calc_loss() -> f64 {
     let unmatched = UNMATCHED.read().len();
     let total = *TOTAL.read();
-    let loss = (unmatched as f64) / (total as f64);
-    loss
+
+    (unmatched as f64) / (total as f64)
 }
 
 fn parse_raw_packet(buf: &[u8]) -> Option<(Addr, &[u8])> {
