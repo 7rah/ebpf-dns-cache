@@ -11,7 +11,7 @@ redbpf-probes = "2.3.0"
 memoffset = "*"
 
 [build-dependencies]
-cargo-bpf = { version = "2.3.0", default-features = false }
+cargo-bpf = { version = "2.3.0", default-features = false ,features = ["llvm13"] }
 
 [features]
 default = []
