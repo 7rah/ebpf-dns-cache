@@ -4,10 +4,17 @@
 use core::fmt::{self, Write};
 use core::{mem, slice};
 use memoffset::offset_of;
+use probe::Addr;
 use redbpf_probes::bindings::*;
 use redbpf_probes::socket_filter::prelude::*;
+use redbpf_probes::xdp::prelude::*;
+use redbpf_probes::xdp::prelude::PerfMap;
 
 program!(0xFFFFFFFE, "GPL");
+
+
+#[map(link_section = "maps/log_events")]
+static mut test_events: PerfMap<Addr> = PerfMap::with_max_entries(512);
 
 #[socket_filter]
 pub fn dns_queries(skb: SkBuff) -> SkBuffResult {
@@ -38,4 +45,38 @@ pub fn dns_queries(skb: SkBuff) -> SkBuffResult {
         return Ok(SkBuffAction::Ignore);
     }
     Ok(SkBuffAction::Ignore)
+}
+
+#[xdp("test")]
+pub fn p0f_extractor(ctx: XdpContext) -> XdpResult {
+    let ip = unsafe{  *ctx.ip()? };
+
+    if ip.protocol != u8::from_be(IPPROTO_UDP as u8){
+        return Ok(XdpAction::Pass);
+    }
+
+    let payload = ctx.data()?;
+    let payload = payload.slice(12)?;
+
+
+    if (payload[4] != 0) | (payload[5] != u8::from_be(1)){
+        return Ok(XdpAction::Pass);
+    }
+
+    let udp_header = ctx.transport()?;
+
+    let saddr = ip.saddr;
+    let daddr = ip.daddr;
+    let sport = udp_header.source();
+    let dport = udp_header.dest();
+    let id = [payload[0],payload[1]];
+    let id = u16::from_be_bytes(id);
+
+    let addr = Addr{saddr,daddr,sport,dport,id};
+
+    unsafe {
+        test_events.insert(&ctx, &MapData::new(addr));
+    }
+
+    Ok(XdpAction::Pass)
 }

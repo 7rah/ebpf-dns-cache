@@ -16,6 +16,7 @@ use tokio::time::{sleep, Instant};
 use tokio::{io, spawn};
 use tokio_fd::AsyncFd;
 use tracing::{error, info, trace, Level};
+use futures_util::StreamExt;
 
 use tracing_subscriber::FmtSubscriber;
 type Domain = String;
@@ -26,7 +27,7 @@ const WAIT_TIME: Duration = Duration::from_secs(5);
 
 #[derive(Clone, Copy, Debug)]
 struct Addr {
-    saddr: SocketAddr,
+    saddr: SocketAddr, 
     daddr: SocketAddr,
     smac: MacAddr,
     dmac: MacAddr,
@@ -112,6 +113,34 @@ async fn main() {
         .unwrap();
     let filter = AsyncFd::try_from(fd).unwrap();
     let (mut rx, mut tx) = io::split(filter);
+
+    for prog in loaded.xdps_mut() {
+        prog.attach_xdp("wlo1", redbpf::xdp::Flags::default())
+            .map_err(|err| format!("{:?}", err)).unwrap();
+    }
+
+    spawn(async move {
+        while let Some((name, events)) = loaded.events.next().await {
+            for event in events {
+                use probe::Addr as ProbeAddr;
+                match name.as_str() {
+                    
+                    "log_events" => {
+                        let addr = unsafe { std::ptr::read(event.as_ptr() as *const ProbeAddr) };
+                        let sport = addr.sport;
+                        let dport = addr.dport;
+                        let saddr = Ipv4Addr::from(u32::from_be(addr.saddr));
+                        let daddr = Ipv4Addr::from(u32::from_be(addr.daddr));
+                        let id = addr.id;
+                        info!("xdp filter  {id} {saddr}:{sport} -> {daddr}:{dport}");
+                    }
+    
+                    _ => panic!("unexpected event"),
+                }
+            }
+        }
+    });
+    
 
     CACHED_MAP.insert(
         "6666.com".to_string(),
@@ -210,7 +239,7 @@ async fn main() {
             let domain = &domains[0];
             if let Some(a) = CACHED_MAP.get(domain) {
                 let ips = a.value();
-                info!("hit chahe {domain} -> {ips:?}");
+                info!("hit chahe and inject {id} {domain} -> {ips:?}");
                 let payload = skip_fail!(build_dns_reply(id, domain, ips));
 
                 let mut addr = addr.clone();
@@ -326,6 +355,8 @@ async fn send_raw_udp_packet<W: AsyncWriteExt + Unpin>(
 fn init() {
     let subscriber = FmtSubscriber::builder()
         .with_max_level(Level::INFO)
+        .with_file(true)
+        .with_line_number(true)
         .finish();
     tracing::subscriber::set_global_default(subscriber).unwrap();
     if unsafe { libc::geteuid() != 0 } {
