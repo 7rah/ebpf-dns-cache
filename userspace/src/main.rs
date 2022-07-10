@@ -1,33 +1,33 @@
+use bollard::Docker;
 use dashmap::DashMap;
+use dns_parser::{RData, ResponseCode};
 use packet_builder::payload::PayloadData;
 use packet_builder::*;
 use pnet::datalink::MacAddr;
 use redbpf::load::Loader;
-use simple_dns::rdata::RData;
-use simple_dns::{Packet as DnsPacket, RCODE};
 use static_init::dynamic;
 use std::collections::hash_map::DefaultHasher;
+use std::collections::HashMap;
 use std::hash::{Hash, Hasher};
 use std::mem::{self};
-use std::net::{Ipv4Addr, SocketAddr, SocketAddrV4};
+use std::net::{IpAddr, Ipv4Addr, SocketAddr, SocketAddrV4};
+use std::str::FromStr;
 use std::time::Duration;
 use tokio::io::{AsyncReadExt, AsyncWriteExt};
 use tokio::time::{sleep, Instant};
 use tokio::{io, spawn};
 use tokio_fd::AsyncFd;
 use tracing::{error, info, trace, Level};
-use futures_util::StreamExt;
-
 use tracing_subscriber::FmtSubscriber;
-type Domain = String;
+
 type Id = u16;
 
-const THRESHOLD: f64 = 0.2;
+const _THRESHOLD: f64 = 0.2;
 const WAIT_TIME: Duration = Duration::from_secs(5);
 
 #[derive(Clone, Copy, Debug)]
 struct Addr {
-    saddr: SocketAddr, 
+    saddr: SocketAddr,
     daddr: SocketAddr,
     smac: MacAddr,
     dmac: MacAddr,
@@ -54,12 +54,12 @@ impl Hash for Addr {
 }
 
 lazy_static::lazy_static! {
-    static ref MATCHING_MAP: DashMap<(Id, u64), (Addr,Vec<Domain>)> = DashMap::new();
-    static ref CACHED_MAP: DashMap<Domain, Vec<Ipv4Addr>> = DashMap::new();
+    static ref MATCHING_MAP: DashMap<(Id, u64), (Addr,Vec<String>)> = DashMap::new();
+    static ref CACHED_MAP: DashMap<String, Vec<Ipv4Addr>> = DashMap::new();
 }
 
 #[dynamic]
-static mut UNMATCHED: Vec<(Addr, Vec<Domain>, Instant)> = Vec::new();
+static mut UNMATCHED: Vec<(Addr, Vec<String>, Instant)> = Vec::new();
 
 #[dynamic]
 static mut TOTAL: u64 = 0;
@@ -81,7 +81,13 @@ fn build_dns_reply(id: Id, domain: &str, ips: &[Ipv4Addr]) -> Option<Vec<u8>> {
     use simple_dns::*;
     let question = Question::new(Name::new_unchecked(domain), QTYPE::A, QCLASS::IN, false);
 
-    let mut packet = PacketBuf::new(PacketHeader::new_reply(id, OPCODE::StandardQuery), true);
+    let mut header = PacketHeader::new_reply(id, OPCODE::StandardQuery);
+    header.authoritative_answer = true;
+    header.recursion_desired = true;
+    header.recursion_available = true;
+
+    let mut packet = PacketBuf::new(header, true);
+
     packet.add_question(&question).ok()?;
 
     for ip in ips {
@@ -109,41 +115,22 @@ async fn main() {
     let fd = loaded
         .socket_filter_mut("dns_queries")
         .unwrap()
-        .attach_socket_filter("wlo1")
+        .attach_socket_filter("docker0")
         .unwrap();
     let filter = AsyncFd::try_from(fd).unwrap();
     let (mut rx, mut tx) = io::split(filter);
 
     for prog in loaded.xdps_mut() {
-        prog.attach_xdp("wlo1", redbpf::xdp::Flags::default())
-            .map_err(|err| format!("{:?}", err)).unwrap();
+        // "wlo1","lo","utun",
+        for interface in ["docker0"] {
+            prog.attach_xdp(interface, redbpf::xdp::Flags::default())
+                .map_err(|err| format!("{:?}", err))
+                .unwrap();
+        }
     }
 
-    spawn(async move {
-        while let Some((name, events)) = loaded.events.next().await {
-            for event in events {
-                use probe::Addr as ProbeAddr;
-                match name.as_str() {
-                    
-                    "log_events" => {
-                        let addr = unsafe { std::ptr::read(event.as_ptr() as *const ProbeAddr) };
-                        let sport = addr.sport;
-                        let dport = addr.dport;
-                        let saddr = Ipv4Addr::from(u32::from_be(addr.saddr));
-                        let daddr = Ipv4Addr::from(u32::from_be(addr.daddr));
-                        let id = addr.id;
-                        info!("xdp filter  {id} {saddr}:{sport} -> {daddr}:{dport}");
-                    }
-    
-                    _ => panic!("unexpected event"),
-                }
-            }
-        }
-    });
-    
-
     CACHED_MAP.insert(
-        "6666.com".to_string(),
+        "7777.com".to_string(),
         vec!["114.114.114.114".parse().unwrap()],
     );
     /*
@@ -185,14 +172,15 @@ async fn main() {
 
     while let Ok(n) = rx.read(&mut buf).await {
         let (addr, buf) = skip_fail!(parse_raw_packet(&buf[..n]));
-        let packet = skip_fail!(DnsPacket::parse(buf).ok());
+
+        let packet = skip_fail!(dns_parser::Packet::parse(buf).ok());
         let id = packet.header.id;
         let addr_hash = hash(&addr);
         trace!("{id} {packet:?}");
         if let Some((_, (_addr, domains))) = MATCHING_MAP.remove(&(id, addr_hash)) {
             // dns query reply
 
-            if packet.header.response_code == RCODE::Refused {
+            if packet.header.response_code == ResponseCode::Refused {
                 UNMATCHED.write().push((addr, domains, Instant::now()));
                 log_status();
                 continue;
@@ -202,8 +190,8 @@ async fn main() {
                 .answers
                 .iter()
                 .filter_map(|r| {
-                    if let RData::A(a) = &r.rdata {
-                        Some(Ipv4Addr::from(a.address))
+                    if let RData::A(a) = &r.data {
+                        Some(a.0)
                     } else {
                         None
                     }
@@ -215,9 +203,14 @@ async fn main() {
             }
 
             info!(
-                "{id} {} <--> {}\t{} -> {:?}",
-                addr.daddr, addr.saddr, domains[0], ips
+                "{:?} {id} {} <--> {}\t{} -> {:?}",
+                get_container_nane_by_ip(addr.daddr.ip()).await,
+                addr.daddr,
+                addr.saddr,
+                domains[0],
+                ips
             );
+
             log_status();
 
             for domain in domains {
@@ -229,10 +222,10 @@ async fn main() {
                 continue;
             }
 
-            let domains: Vec<Domain> = packet
+            let domains: Vec<String> = packet
                 .questions
                 .iter()
-                .map(|q| q.qname.to_string() as Domain)
+                .map(|q| q.qname.to_string())
                 .collect();
 
             // test whether cache and DNS packet injection work
@@ -245,7 +238,7 @@ async fn main() {
                 let mut addr = addr.clone();
 
                 mem::swap(&mut addr.saddr, &mut addr.daddr);
-                mem::swap(&mut addr.smac, &mut addr.dmac);
+                //mem::swap(&mut addr.smac, &mut addr.dmac);
 
                 send_raw_udp_packet(&mut tx, &addr, &payload).await;
             }
@@ -292,6 +285,43 @@ fn calc_loss() -> f64 {
     let total = *TOTAL.read();
 
     (unmatched as f64) / (total as f64)
+}
+
+async fn get_container_nane_by_ip(addr: IpAddr) -> Option<(String, Vec<String>)> {
+    let docker = Docker::connect_with_local_defaults().unwrap();
+    let v = docker.list_containers::<&str>(None).await.unwrap();
+
+    let mut result = HashMap::new();
+
+    v.into_iter()
+        .filter_map(|summary| {
+            let (id, names) = (summary.id?, summary.names?);
+
+            let names: Vec<_> = names
+                .iter()
+                .map(|x| x.trim_start_matches('/').to_string())
+                .collect();
+
+            let networks = summary.network_settings?.networks?;
+            let ips: Vec<_> = networks
+                .into_values()
+                .filter_map(|settings| {
+                    let ip = settings.ip_address?;
+                    IpAddr::from_str(&ip).ok()
+                })
+                .collect();
+
+            for ip in ips {
+                result.insert(ip, (id.clone(), names.clone()));
+            }
+
+            Some(())
+        })
+        .count();
+
+    result
+        .get(&addr)
+        .and_then(|(id, names)| Some((id.clone(), names.clone())))
 }
 
 fn parse_raw_packet(buf: &[u8]) -> Option<(Addr, &[u8])> {

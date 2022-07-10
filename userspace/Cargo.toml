@@ -23,6 +23,8 @@ static_init = "*"
 dashmap = "5.3.4"
 futures-util = "*"
 probe = {path = "../probe"}
+dns-parser = "0.8.0"
+bollard = "0.12"
 
 [build-dependencies]
 cargo-bpf = { version="2.3.0",default-features = false, features = ["build","llvm13"] }
